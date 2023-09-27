@@ -45,12 +45,6 @@ control “temp. setpoint”.</p>
 <p>Softkey “MANUAL”: Manually manages the opening of the value using the value entered in the
 “valve setpoint” control.</p></td>
 </tr>
-<tr class="odd">
-<td>5</td>
-<td><p>Softkey “START”: Starts the autotune; once completed, it requests the saving of the calculated settings. These
-are written as "Write" (in orange) on the corresponding "Settings" screen.</p>
-<p>Softkey “STOP”: Stops the autotune.</p></td>
-</tr>
 </tbody>
 </table>
 
