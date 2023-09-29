@@ -41,9 +41,8 @@ is updated and a red box is displayed on the left of the screen to indicate that
 </tr>
 <tr class="even">
 <td>4</td>
-<td><p>Softkey “RESTART TCP TELEMETRY”: Restarts the TCP telemetry server, which sends telemetry to
+<td><p>Softkey “RESTART CSC TCP TELEMETRY”: Restarts the TCP telemetry server, which sends telemetry to the
 CSC.</p>
-<p>Softkey “STOP PXI APP”: Deletes and controls the main PXI.</p></td>
 </tr>
 </tbody>
 </table>
