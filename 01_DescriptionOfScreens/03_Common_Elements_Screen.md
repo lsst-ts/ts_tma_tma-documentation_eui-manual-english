@@ -125,6 +125,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
     </tr>
   </tbody>
 </table>
+
 #### Statuses
 
 There are multiple different statuses in the application, and all of them are accompanied by a representative color.
