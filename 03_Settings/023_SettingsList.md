@@ -6,9 +6,9 @@
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
-| AmbientTemperatureTracking | Ambient Temperature Offset | DOUBLE | Ã‚ÂºC | Offset to apply to the received ambient temperature |
+| AmbientTemperatureTracking | Ambient Temperature Offset | DOUBLE | ºC | Offset to apply to the received ambient temperature |
 | AmbientTemperatureTracking | Commands to update settings | DOUBLE |  | When the number of commands set in this settings is received by the task, the settings will be updated |
-| AmbientTemperatureTracking | Initial Temperature | DOUBLE | Ã‚ÂºC | The system will start with this temperature until a commands to update the ambient temperature is received |
+| AmbientTemperatureTracking | Initial Temperature | DOUBLE | ºC | The system will start with this temperature until a commands to update the ambient temperature is received |
 
 ##### Balancing
 
@@ -131,7 +131,7 @@
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
 | General | address | STRING |  | This is the IP address of the MLC. |
-| General | ChangeToParking | BOOLEAN |  | This setting defines if the system will execute the actions to change some motors to parking/notParking. If true before starting the bosch system some motors will change to parking.If false no actions are executed before starting. |
+| General | ChangeToParking | BOOLEAN |  | This setting defines if the system will execute the actions to change some motors to parking/notParking. If true before starting the bosch system some motors will change to parking. If false no actions are executed before starting. |
 | General | Parking Motor ID 1 | BOOLEAN |  | This setting defines if the motor has to be in parking or not. Parking means that the motor will be off, and the statechart corresponding to the Motor ID will not start. |
 | General | Parking Motor ID 10 | BOOLEAN |  | This setting defines if the motor has to be in parking or not. Parking means that the motor will be off, and the statechart corresponding to the Motor ID will not start. |
 | General | Parking Motor ID 11 | BOOLEAN |  | This setting defines if the motor has to be in parking or not. Parking means that the motor will be off, and the statechart corresponding to the Motor ID will not start. |
@@ -489,25 +489,25 @@
 | Azimuth | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
 | Azimuth | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
 | Azimuth | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
-| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Azimuth | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
 | Azimuth | Limits Negative Positive Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Over this limit the axis does not allow any movement. |
 | Azimuth | Limits Negative Software limit enable | BOOLEAN |  | Enable negative software limit |
-| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Azimuth | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
 | Azimuth | Limits Overspeed Warning Value | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Azimuth | Limits Positive Adjustable Software limit enable | BOOLEAN |  | Enable positive adjustable software limit |
-| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Positive Limit Switch enable | BOOLEAN |  | Enable positive Limit Switch |
 | Azimuth | Limits Positive Operational Limit Switch enable | BOOLEAN |  | Enable positive Operational imit switch |
 | Azimuth | Limits Positive Software limit enable | BOOLEAN |  | Enable positive software limit |
-| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Softmotion Negative Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Bellow this limit the axis does not allow any movement. |
-| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
 | Azimuth | Limits Softmotion Positive Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Over this limit the axis does not allow any movement. |
-| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
 | Azimuth | Softmotion Tracking margin speed | DOUBLE | % | This acceleration is the margin available jerk when axis is in tracking mode. This is used by tracking algorithm from the maximum available for tracking/slewing when slewing. |
 | Azimuth | Softmotion Tracking max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration when axis is in tracking mode. This is used for tracking and slewing combination |
 | Azimuth | Softmotion Tracking max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available acceleration when axis is in tracking mode. This is used for tracking and slewing combination |
@@ -539,24 +539,24 @@
 | Elevation | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
 | Elevation | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
 | Elevation | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
-| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Elevation | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
 | Elevation | Limits Negative Software limit enable | BOOLEAN |  | Enable negative software limit |
-| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Elevation | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
 | Elevation | Limits Overspeed Warning Value | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Elevation | Limits Positive Adjustable Software limit enable | BOOLEAN |  | Enable positive adjustable software limit |
-| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Positive Limit Switch enable | BOOLEAN |  | Enable positive Limit Switch |
 | Elevation | Limits Positive Operational Limit Switch enable | BOOLEAN |  | Enable positive Operational imit switch |
 | Elevation | Limits Positive Software limit enable | BOOLEAN |  | Enable positive software limit |
-| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Softmotion Negative Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Bellow this limit the axis does not allow any movement. |
-| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
 | Elevation | Limits Softmotion Positive Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Over this limit the axis does not allow any movement. |
-| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
 | Elevation | Softmotion Tracking margin speed | DOUBLE | % | This acceleration is the margin available jerk when axis is in tracking mode. This is used by tracking algorithm from the maximum available for tracking/slewing when slewing. |
 | Elevation | Softmotion Tracking max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration when axis is in tracking mode. This is used for tracking and slewing combination |
 | Elevation | Softmotion Tracking max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available acceleration when axis is in tracking mode. This is used for tracking and slewing combination |
