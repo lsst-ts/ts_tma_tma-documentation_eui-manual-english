@@ -1132,7 +1132,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
-| AzimuthGroup1 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| AzimuthGroup1 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | AzimuthGroup1 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | AzimuthGroup1 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | AzimuthGroup1 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1152,7 +1152,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | AzimuthGroup1 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | AzimuthGroup1 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | AzimuthGroup1 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| AzimuthGroup2 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| AzimuthGroup2 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | AzimuthGroup2 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | AzimuthGroup2 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | AzimuthGroup2 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1172,7 +1172,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | AzimuthGroup2 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | AzimuthGroup2 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | AzimuthGroup2 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| AzimuthGroup3 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| AzimuthGroup3 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | AzimuthGroup3 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | AzimuthGroup3 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | AzimuthGroup3 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1192,7 +1192,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | AzimuthGroup3 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | AzimuthGroup3 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | AzimuthGroup3 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| AzimuthGroup4 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| AzimuthGroup4 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | AzimuthGroup4 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | AzimuthGroup4 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | AzimuthGroup4 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1212,7 +1212,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | AzimuthGroup4 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | AzimuthGroup4 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | AzimuthGroup4 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| Cabinet0101 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| Cabinet0101 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | Cabinet0101 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | Cabinet0101 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | Cabinet0101 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1233,7 +1233,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | Cabinet0101 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | Cabinet0101 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | Cabinet0101 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| ElevationGroup1 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| ElevationGroup1 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | ElevationGroup1 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | ElevationGroup1 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | ElevationGroup1 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1253,7 +1253,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | ElevationGroup1 | ValveOutputHigh | DOUBLE | % | The highest value that the controller can have as an output |
 | ElevationGroup1 | ValveOutputLow | DOUBLE | % | The lowest value that the controller can have as an output |
 | ElevationGroup1 | ValveValidBand | DOUBLE | % | This is the band at which the valve will tell that is in position. |
-| ElevationGroup2 | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| ElevationGroup2 | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | ElevationGroup2 | AmbientTemperatureOffset | DOUBLE | Cdeg | The offset from the ambient temperature |
 | ElevationGroup2 | Control alpha | DOUBLE |  | Specifies the derivative filter time constant. Increasing this value increases damping action. Alpha can be a value between 0 and 1 or NaN, which specifies no derivative filter is applied |
 | ElevationGroup2 | Control Kp | DOUBLE |  | This is the proportional gain value of the temperature controller. |
@@ -1293,7 +1293,7 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
-| General | AlarmCodesNoFaultTransition | STRING |  | Semicolon separated list of alarm codes that do not make the system go to fault |
+| General | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | General | TemperatureDeviationAlarm | DOUBLE | Cdeg | This is the temperature difference at which a TemperatureTooHigh alarm is sent, the difference must be positive for being an overtemperature. |
 | General | TemperatureDeviationHysteresis | DOUBLE | Cdeg | This is the temperature hysteresis for temperature deviation alarm and warning. |
 | General | TemperatureDeviationWarning | DOUBLE | Cdeg | This is the temperature difference at which a TemperatureTooLow warning is sent, the difference must be negative for being an under temperature. |
