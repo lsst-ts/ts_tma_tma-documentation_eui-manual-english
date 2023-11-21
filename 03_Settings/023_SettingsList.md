@@ -345,7 +345,7 @@ There are no settings under this section.
 | General | Azimuth reference margin | DOUBLE | deg | If the reference between any head and the mean value of the 4 heads is higher than this value, the encoder reference (homing) will fail. |
 | General | Azimuth Tape Line Count | DOUBLE |  | Number of line counts in the azimuth tape |
 | General | Azimuth Telescope Offset | DOUBLE | deg | REBOOT AFTER CHANGING!! This is the offset between telescope zero and encoder tape zero for azimuth. The zero for encoder is the junction of the tape and the zero for telescope is the north orientation |
-| General | Check UPD timeout | DOUBLE | ms | Time to start UPD loop in AXES PXI. This time must be less than CMD timeout power on, since this is an step of power on |
+| General | Check UPD timeout | DOUBLE | ms | Time to start UDP loop in AXES PXI. This time must be less than CMD timeout power on, since this is an step of power on |
 | General | CMD timeout clear errors | DOUBLE | ms | Timeout for  clearing active errors in EIB task |
 | General | CMD timeout clear heads errors | DOUBLE | ms | Timeout for  clearing active heads errors |
 | General | CMD timeout power off | DOUBLE | ms | Timeout for  powering off axis heads |
