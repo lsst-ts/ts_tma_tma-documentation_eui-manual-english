@@ -491,8 +491,8 @@ There are no settings under this section.
 | Azimuth | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Azimuth | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
 | Azimuth | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
-| Azimuth | Limits Max Position enable | BOOLEAN | deg | Maximum allowed position command verification is enabled |
-| Azimuth | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
+| Azimuth | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
+| Azimuth | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Azimuth | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
 | Azimuth | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Azimuth | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
@@ -524,8 +524,8 @@ There are no settings under this section.
 | Elevation | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Elevation | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
 | Elevation | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
-| Elevation | Limits Max Position enable | BOOLEAN | deg | Maximum allowed position command verification is enabled |
-| Elevation | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
+| Elevation | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
+| Elevation | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Elevation | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
 | Elevation | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Elevation | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
@@ -574,7 +574,7 @@ There are no settings under this section.
 | Azimuth | Limits AZCW Critical Deviation Value | DOUBLE |  | Maximum allowed deviation between AZCW and AZ verification value. If this value is overcomed an alarm will be generated in azimuth |
 | Azimuth | Limits AZCW Deviation Enable | BOOLEAN |  | Maximum allowed deviation between AZCW and AZ verification is enabled |
 | Azimuth | Limits AZCW Maximum Deviation Value | DOUBLE |  | Maximum allowed deviation between AZCW and AZ verification value. If this value is overcomed a warning will be generated in azimuth |
-| Azimuth | Limits Following Error enable | BOOLEAN | deg | Enable the following error |
+| Azimuth | Limits Following Error enable | BOOLEAN |  | Enable the following error |
 | Azimuth | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Azimuth | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Azimuth | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
@@ -664,7 +664,7 @@ There are no settings under this section.
 | Elevation | Homing Speed | DOUBLE | deg/s | Speed for Homing procedure |
 | Elevation | Homing Start in Positive Direction | BOOLEAN |  | If True the start direction will be positive one, otherwise it will try in negative direction first |
 | Elevation | Limits Active Drives | DOUBLE |  | Bellow this value the system will send a warning |
-| Elevation | Limits Following Error enable | BOOLEAN | deg | Enable the following error |
+| Elevation | Limits Following Error enable | BOOLEAN |  | Enable the following error |
 | Elevation | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Elevation | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Elevation | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
