@@ -52,8 +52,8 @@
 | ---- | ---- | ----------- | ----------------- | ----- |
 | Balancing1 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing1 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing1 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing1 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing1 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing1 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing1 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing1 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing1 | Max Position Limit | DOUBLE | mm | The maximum position of the balancing motor, at which an error is fired. |
@@ -72,8 +72,8 @@
 | Balancing1 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing2 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing2 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing2 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing2 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing2 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing2 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing2 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing2 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing2 | Max Position Limit | DOUBLE | mm | The maximum position of the balancing motor, at which an error is fired. |
@@ -92,8 +92,8 @@
 | Balancing2 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing3 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing3 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing3 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing3 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing3 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing3 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing3 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing3 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing3 | Max Speed | DOUBLE | deg/s | The maximum speed of the motor, if the speed is greater than this the command is rejected. |
@@ -110,8 +110,8 @@
 | Balancing3 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing4 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing4 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing4 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing4 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing4 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing4 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing4 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing4 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing4 | Max Speed | DOUBLE | deg/s | The maximum speed of the motor, if the speed is greater than this the command is rejected. |
@@ -294,7 +294,7 @@
 | DeployablePlatform1 | Motor ID Platform 1 | DOUBLE |  | The motor ID of platform motor 1. |
 | DeployablePlatform1 | Motor ID Platform 2 | DOUBLE |  | The motor ID of platform motor 2. |
 | DeployablePlatform1 | Platform Acceleration | DOUBLE | mm/s^2 | The acceleration of the platform. |
-| DeployablePlatform1 | Platform Deceleration | DOUBLE | deg/s^2 | The deceleration of any platform element. |
+| DeployablePlatform1 | Platform Deceleration | DOUBLE | mm/s^2 | The deceleration of any platform element. |
 | DeployablePlatform1 | Platform Jerk | DOUBLE | mm/s^3 | The jerk of any platform element. |
 | DeployablePlatform1 | Platform Max Critical Velocity | DOUBLE | mm/s | The maximum critical velocity, which causes an alarm to be triggered. |
 | DeployablePlatform1 | Platform Max Velocity | DOUBLE | mm/s | The maximum velocity, which causes a warning to be triggered. |
@@ -313,7 +313,7 @@
 | DeployablePlatform2 | Motor ID Platform 1 | DOUBLE |  | The motor ID of platform motor 1. |
 | DeployablePlatform2 | Motor ID Platform 2 | DOUBLE |  | The motor ID of platform motor 2. |
 | DeployablePlatform2 | Platform Acceleration | DOUBLE | mm/s^2 | The acceleration of the platform. |
-| DeployablePlatform2 | Platform Deceleration | DOUBLE | deg/s^2 | The deceleration of any platform element. |
+| DeployablePlatform2 | Platform Deceleration | DOUBLE | mm/s^2 | The deceleration of any platform element. |
 | DeployablePlatform2 | Platform Jerk | DOUBLE | mm/s^3 | The jerk of any platform element. |
 | DeployablePlatform2 | Platform Max Critical Velocity | DOUBLE | mm/s | The maximum critical velocity, which causes an alarm to be triggered. |
 | DeployablePlatform2 | Platform Max Velocity | DOUBLE | mm/s | The maximum velocity, which causes a warning to be triggered. |
@@ -491,8 +491,8 @@ There are no settings under this section.
 | Azimuth | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Azimuth | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
 | Azimuth | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
-| Azimuth | Limits Max Position enable | BOOLEAN | deg | Maximum allowed position command verification is enabled |
-| Azimuth | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
+| Azimuth | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
+| Azimuth | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Azimuth | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
 | Azimuth | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Azimuth | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
@@ -524,8 +524,8 @@ There are no settings under this section.
 | Elevation | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Elevation | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
 | Elevation | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
-| Elevation | Limits Max Position enable | BOOLEAN | deg | Maximum allowed position command verification is enabled |
-| Elevation | Limits Min Position enable | BOOLEAN | deg | Minimum allowed position command verification is enabled |
+| Elevation | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
+| Elevation | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Elevation | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
 | Elevation | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Elevation | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
@@ -574,30 +574,21 @@ There are no settings under this section.
 | Azimuth | Limits AZCW Critical Deviation Value | DOUBLE |  | Maximum allowed deviation between AZCW and AZ verification value. If this value is overcomed an alarm will be generated in azimuth |
 | Azimuth | Limits AZCW Deviation Enable | BOOLEAN |  | Maximum allowed deviation between AZCW and AZ verification is enabled |
 | Azimuth | Limits AZCW Maximum Deviation Value | DOUBLE |  | Maximum allowed deviation between AZCW and AZ verification value. If this value is overcomed a warning will be generated in azimuth |
-| Azimuth | Limits Following Error enable | BOOLEAN | deg | Enable the following error |
+| Azimuth | Limits Following Error enable | BOOLEAN |  | Enable the following error |
 | Azimuth | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Azimuth | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Azimuth | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
-| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Azimuth | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
-| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Azimuth | Observer Ad | STRING |  | A matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Azimuth | Observer Bd | STRING |  | B matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Azimuth | Observer K | STRING |  | K matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Observer Ad | STRING |  | A matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Observer Bd | STRING |  | B matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Observer K | STRING |  | K matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
 | Azimuth | Observer MaxAllowedError | DOUBLE | rad | Maximum allowed deviation from the real position to consider the observer as stable. Over this deviation the observer will not be used if the data from the encoder is missing and an extrapolation from the last valid position and speed will be used. |
 | Azimuth | OVERRIDE Default Acceleration | DOUBLE | deg/s^2 | Default acceleration when a safety override of limit switches is active |
 | Azimuth | OVERRIDE Default Jerk | DOUBLE | deg/s^3 | Default jerk when a safety override of limit switches is active |
@@ -673,30 +664,21 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | Elevation | Homing Speed | DOUBLE | deg/s | Speed for Homing procedure |
 | Elevation | Homing Start in Positive Direction | BOOLEAN |  | If True the start direction will be positive one, otherwise it will try in negative direction first |
 | Elevation | Limits Active Drives | DOUBLE |  | Bellow this value the system will send a warning |
-| Elevation | Limits Following Error enable | BOOLEAN | deg | Enable the following error |
+| Elevation | Limits Following Error enable | BOOLEAN |  | Enable the following error |
 | Elevation | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Elevation | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Elevation | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
-| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Elevation | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
-| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Elevation | Observer Ad | STRING |  | A matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Elevation | Observer Bd | STRING |  | B matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Elevation | Observer K | STRING |  | K matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Observer Ad | STRING |  | A matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Observer Bd | STRING |  | B matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Observer K | STRING |  | K matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
 | Elevation | Observer MaxAllowedError | DOUBLE | rad | Maximum allowed deviation from the real position to consider the observer as stable. Over this deviation the observer will not be used if the data from the encoder is missing and an extrapolation from the last valid position and speed will be used. |
 | Elevation | OVERRIDE Default Acceleration | DOUBLE | deg/s^2 | Default acceleration when a safety override of limit switches is active |
 | Elevation | OVERRIDE Default Jerk | DOUBLE | deg/s^3 | Default jerk when a safety override of limit switches is active |
@@ -1400,7 +1382,7 @@ There are no settings under this section.
 | General | ID String | STRING |  | This is not used for this subsystem, is kept for consistency. |
 | General | LocalRemote timeout | DOUBLE | ms | After this time the Top End chiller checking for local remote change will send a timeout error |
 | General | Power ON/OFF timeout | DOUBLE | ms | After this time the Top End chiller checking for power on or off will send a timeout error |
-| General | Reset pulse time | DOUBLE | ms | Time of the reset pulse sent to Top en chiller controller |
+| General | Reset pulse time | DOUBLE | ms | Time of the reset pulse sent to Top end chiller controller |
 
 ###### Restricted Access Setting list
 
