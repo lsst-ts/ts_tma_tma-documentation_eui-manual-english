@@ -578,26 +578,17 @@ There are no settings under this section.
 | Azimuth | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Azimuth | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Azimuth | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
-| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Azimuth | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Azimuth | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
-| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Azimuth | Observer Ad | STRING |  | A matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Azimuth | Observer Bd | STRING |  | B matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Azimuth | Observer K | STRING |  | K matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Azimuth | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Azimuth | Observer Ad | STRING |  | A matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Observer Bd | STRING |  | B matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Azimuth | Observer K | STRING |  | K matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
 | Azimuth | Observer MaxAllowedError | DOUBLE | rad | Maximum allowed deviation from the real position to consider the observer as stable. Over this deviation the observer will not be used if the data from the encoder is missing and an extrapolation from the last valid position and speed will be used. |
 | Azimuth | OVERRIDE Default Acceleration | DOUBLE | deg/s^2 | Default acceleration when a safety override of limit switches is active |
 | Azimuth | OVERRIDE Default Jerk | DOUBLE | deg/s^3 | Default jerk when a safety override of limit switches is active |
@@ -677,26 +668,17 @@ It is a matrix, use "," to separate columns and "_" to add rows |
 | Elevation | Limits Following Error Value | DOUBLE | deg | Set the maximum allowed following error |
 | Elevation | Limits Max Position value | DOUBLE | deg | Maximum allowed position command |
 | Elevation | Limits Min Position value | DOUBLE | deg | Minimum allowed position command |
-| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Adjustable Software limit value | DOUBLE | deg | Value for Negative adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Negative Software limit value | DOUBLE | deg | Value for negative software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
 | Elevation | Limits Overspeed enable | BOOLEAN | deg/s | Enable the overspeed limit, does not affect the warning. |
 | Elevation | Limits Overspeed Value | DOUBLE | deg/s | If this speed value is overcomed an the critical speed limit alarm will be triggered. |
-| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit. 
-This limit will be valid if it is enabled independent if the axis may move in relative mode |
-| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit. 
-Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
-| Elevation | Observer Ad | STRING |  | A matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Elevation | Observer Bd | STRING |  | B matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
-| Elevation | Observer K | STRING |  | K matrix for the position/speed observer.
-It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Limits Positive Adjustable Software limit value | DOUBLE | deg | Value for Positive adjustable software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Positive Software limit value | DOUBLE | deg | Value for Positive software limit.  This limit will be valid if it is enabled independent if the axis may move in relative mode |
+| Elevation | Limits Softmotion Negative Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Bellow this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Limits Softmotion Positive Software limit value | DOUBLE | deg | Value for softmotion Positive software limit.  Over this limit the axis does not allow any movement. This limit must allow all desired movements, also maintenance movements to safety limits |
+| Elevation | Observer Ad | STRING |  | A matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Observer Bd | STRING |  | B matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
+| Elevation | Observer K | STRING |  | K matrix for the position/speed observer. It is a matrix, use "," to separate columns and "_" to add rows |
 | Elevation | Observer MaxAllowedError | DOUBLE | rad | Maximum allowed deviation from the real position to consider the observer as stable. Over this deviation the observer will not be used if the data from the encoder is missing and an extrapolation from the last valid position and speed will be used. |
 | Elevation | OVERRIDE Default Acceleration | DOUBLE | deg/s^2 | Default acceleration when a safety override of limit switches is active |
 | Elevation | OVERRIDE Default Jerk | DOUBLE | deg/s^3 | Default jerk when a safety override of limit switches is active |
