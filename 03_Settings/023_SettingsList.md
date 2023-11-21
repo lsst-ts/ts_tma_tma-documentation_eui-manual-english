@@ -1382,7 +1382,7 @@ There are no settings under this section.
 | General | ID String | STRING |  | This is not used for this subsystem, is kept for consistency. |
 | General | LocalRemote timeout | DOUBLE | ms | After this time the Top End chiller checking for local remote change will send a timeout error |
 | General | Power ON/OFF timeout | DOUBLE | ms | After this time the Top End chiller checking for power on or off will send a timeout error |
-| General | Reset pulse time | DOUBLE | ms | Time of the reset pulse sent to Top en chiller controller |
+| General | Reset pulse time | DOUBLE | ms | Time of the reset pulse sent to Top end chiller controller |
 
 ###### Restricted Access Setting list
 
