@@ -294,7 +294,7 @@
 | DeployablePlatform1 | Motor ID Platform 1 | DOUBLE |  | The motor ID of platform motor 1. |
 | DeployablePlatform1 | Motor ID Platform 2 | DOUBLE |  | The motor ID of platform motor 2. |
 | DeployablePlatform1 | Platform Acceleration | DOUBLE | mm/s^2 | The acceleration of the platform. |
-| DeployablePlatform1 | Platform Deceleration | DOUBLE | deg/s^2 | The deceleration of any platform element. |
+| DeployablePlatform1 | Platform Deceleration | DOUBLE | mm/s^2 | The deceleration of any platform element. |
 | DeployablePlatform1 | Platform Jerk | DOUBLE | mm/s^3 | The jerk of any platform element. |
 | DeployablePlatform1 | Platform Max Critical Velocity | DOUBLE | mm/s | The maximum critical velocity, which causes an alarm to be triggered. |
 | DeployablePlatform1 | Platform Max Velocity | DOUBLE | mm/s | The maximum velocity, which causes a warning to be triggered. |
@@ -313,7 +313,7 @@
 | DeployablePlatform2 | Motor ID Platform 1 | DOUBLE |  | The motor ID of platform motor 1. |
 | DeployablePlatform2 | Motor ID Platform 2 | DOUBLE |  | The motor ID of platform motor 2. |
 | DeployablePlatform2 | Platform Acceleration | DOUBLE | mm/s^2 | The acceleration of the platform. |
-| DeployablePlatform2 | Platform Deceleration | DOUBLE | deg/s^2 | The deceleration of any platform element. |
+| DeployablePlatform2 | Platform Deceleration | DOUBLE | mm/s^2 | The deceleration of any platform element. |
 | DeployablePlatform2 | Platform Jerk | DOUBLE | mm/s^3 | The jerk of any platform element. |
 | DeployablePlatform2 | Platform Max Critical Velocity | DOUBLE | mm/s | The maximum critical velocity, which causes an alarm to be triggered. |
 | DeployablePlatform2 | Platform Max Velocity | DOUBLE | mm/s | The maximum velocity, which causes a warning to be triggered. |
