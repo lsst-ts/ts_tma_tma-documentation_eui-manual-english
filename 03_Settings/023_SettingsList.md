@@ -52,8 +52,8 @@
 | ---- | ---- | ----------- | ----------------- | ----- |
 | Balancing1 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing1 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing1 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing1 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing1 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing1 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing1 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing1 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing1 | Max Position Limit | DOUBLE | mm | The maximum position of the balancing motor, at which an error is fired. |
@@ -72,8 +72,8 @@
 | Balancing1 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing2 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing2 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing2 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing2 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing2 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing2 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing2 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing2 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing2 | Max Position Limit | DOUBLE | mm | The maximum position of the balancing motor, at which an error is fired. |
@@ -92,8 +92,8 @@
 | Balancing2 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing3 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing3 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing3 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing3 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing3 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing3 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing3 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing3 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing3 | Max Speed | DOUBLE | deg/s | The maximum speed of the motor, if the speed is greater than this the command is rejected. |
@@ -110,8 +110,8 @@
 | Balancing3 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
 | Balancing4 | Default Acceleration | DOUBLE | mm/s^2 | The default acceleration of the motor. |
 | Balancing4 | Default Jerk | DOUBLE | mm/s^3 | The default jerk of the motor. |
-| Balancing4 | First Side Position | DOUBLE |  | This is the position to which the balancing moves first, when doing a side to side move. |
-| Balancing4 | Last Side Position | DOUBLE |  | This is the position to which the balancing moves last, when doing a side to side move. |
+| Balancing4 | First Side Position | DOUBLE | mm | This is the position to which the balancing moves first, when doing a side to side move. |
+| Balancing4 | Last Side Position | DOUBLE | mm | This is the position to which the balancing moves last, when doing a side to side move. |
 | Balancing4 | Max Critical Speed | DOUBLE | mm/s | The maximum critical speed of the balancing motor, at which an alarm is triggered. |
 | Balancing4 | Max Position | DOUBLE | mm | Maximum allowed position, cmds with a position above this one are rejected. |
 | Balancing4 | Max Speed | DOUBLE | deg/s | The maximum speed of the motor, if the speed is greater than this the command is rejected. |
