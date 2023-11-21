@@ -56,15 +56,15 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_PantallaOSSGeneralView.md)</td>
+<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PantallaPowerSupply.md)</td>
+<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_PantallaAzimuthCableWrap.md) 2.5.2.3.2.</p>
+<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_AzimuthCableWrap.md) 2.5.2.3.2.</p>
 <p>Displays the status and position (in deg) of the “Azimuth Cable Wrap (ACW)”.</p></td>
 </tr>
 <tr class="odd">

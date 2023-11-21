@@ -61,11 +61,11 @@ vertical slider.</p>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>Displays the values saved in [“Settings”](../03_Settings/012_PantallaBalancingSettings.md).</td>
+<td>Displays the values saved in [“Settings”](../03_Settings/012_BalancingSettings.md).</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_PantallaLockingPins.md)</p>
+<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -76,7 +76,7 @@ vertical slider.</p>
 <tr class="even">
 <td>8</td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_PantallaElevationGeneralView.md)</p></td>
+<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
 </tr>
 <tr class="odd">
 <td>9</td>

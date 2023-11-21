@@ -24,7 +24,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td><p>Accesses the screen [“Elevation General View”](./002_PantallaElevationGeneralView.md)</p>
+<td><p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p>
 <p>Displays the “Elevation” status, position (in deg) and the setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -36,7 +36,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 </tr>
 <tr class="even">
 <td>2</td>
-<td><p>Accesses the screen [“Azimuth General View”](./005_PantallaAzimuthGeneralView.md)</p>
+<td><p>Accesses the screen [“Azimuth General View”](./005_AzimuthGeneralView.md)</p>
 <p>Displays the “Azimuth” status, position (in deg) and setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -82,7 +82,7 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="even">
 <td>8</td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_PantallaLockingPins.md)</p>
+<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -92,15 +92,15 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_PantallaOSSGeneralView.md)</td>
+<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PantallaPowerSupply.md)</td>
+<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_PantallaAzimuthCableWrap.md)</p>
+<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_AzimuthCableWrap.md)</p>
 <p>Displays the status and position (in deg) of the “Azimuth Cable Wrap (ACW)”.</p></td>
 </tr>
 <tr class="even">

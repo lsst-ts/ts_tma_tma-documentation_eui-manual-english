@@ -30,7 +30,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td>3</td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor&Control/035_PantallaOperationManager.md">“Operation
+          Accesses the screen <a href="../02_Monitor&Control/035_OperationManager.md">“Operation
           Manager”</a>
         </p>
         <p>
@@ -42,7 +42,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td>4</td>
       <td>
         <p>
-          Accesses the screen [Safety System](../02_Monitor&Control/034_PantallaSafetySystem.md) Shows
+          Accesses the screen [Safety System](../02_Monitor&Control/034_SafetySystem.md) Shows
           four safety system signals:
         </p>
         <ul>
@@ -97,7 +97,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
         <p>The arrows allow you to scroll up and down in the window menu.</p>
         <p>
           The centre softkey allows you to return to the
-          [“Home”](./01_Pantalla_Inicio_HOME.md) screen
+          [“Home”](./01_Home_Screen_Home.md) screen
         </p>
       </td>
     </tr>
@@ -105,7 +105,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td>9</td>
       <td>
         <p>
-          Accesses the screen [“Alarm History”](../02_Monitor%26Control/036_PantallaAlarmHistory.md)
+          Accesses the screen [“Alarm History”](../02_Monitor%26Control/036_AlarmHistory.md)
         </p>
         <p>
           “GENERAL” softkey: accesses all alarms without filter.
@@ -120,7 +120,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td>10</td>
       <td>
         Mark on the screen, its colour changes depending on the operating mode,
-        [see](./02_Cambio_de_Operacion.md)
+        [see](./02_Change_Of_Operating_Mode.md)
       </td>
     </tr>
   </tbody>

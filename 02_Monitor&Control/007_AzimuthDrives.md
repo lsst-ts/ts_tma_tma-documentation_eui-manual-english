@@ -39,6 +39,7 @@ it will switch to the status “Parked”.</p>
 </tr>
 </tbody>
 </table>
+
 ##### Azimuth Drives Screen - Values
 
 This screen shows a graph with the real time azimuth drive current values.

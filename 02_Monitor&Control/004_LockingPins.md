@@ -67,12 +67,12 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Displays the status and allows access to the screen [“Balancing General View”](./024_PantallaBalancingGeneralView.md)</td>
+<td>Displays the status and allows access to the screen [“Balancing General View”](./024_BalancingGeneralView.md)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_PantallaElevationGeneralView.md)</p></td>
+<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
 </tr>
 <tr class="even">
 <td>6</td>

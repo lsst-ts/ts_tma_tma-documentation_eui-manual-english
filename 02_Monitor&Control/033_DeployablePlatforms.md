@@ -72,7 +72,7 @@ M1M side extensions can only be extended if the “Mirror Cover” is retracted.
 </tr>
 <tr class="even">
 <td>6</td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_PantallaLockingPins.md)</p>
+<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -83,7 +83,7 @@ M1M side extensions can only be extended if the “Mirror Cover” is retracted.
 <tr class="odd">
 <td>7</td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_PantallaElevationGeneralView.md)</p></td>
+<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
 </tr>
 <tr class="even">
 <td>8</td>

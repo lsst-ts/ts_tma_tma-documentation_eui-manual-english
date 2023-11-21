@@ -1,6 +1,6 @@
 #### Axis Transfer Function Results Screen
 
-This screen displays the signals picked up through the ["Axis Transfer Function"](./016_PantallaAxisTransferFunction.md) screen. It allows the results to be analysed for the Azimuth and Elevation axis transfer function.
+This screen displays the signals picked up through the ["Axis Transfer Function"](./016_AxisTransferFunction.md) screen. It allows the results to be analysed for the Azimuth and Elevation axis transfer function.
 
 ##### Axis Transfer Function Results Screen -- Time Signals
 
@@ -36,6 +36,7 @@ In this case, it shows the characteristics of the test and data pickup against t
 </tr>
 </tbody>
 </table>
+
 ##### Axis Transfer Function Results Screen -- FFT
 
 This screen displays a FFT graph of the previously selected signals. The result is plotted on two separate graphs of magnitude and phase versus time.
@@ -64,6 +65,7 @@ This screen displays a FFT graph of the previously selected signals. The result 
 </tr>
 </tbody>
 </table>
+
 ##### Axis Transfer Function Results Screen -- Transfer Function
 
 This screen displays a graph of the transfer function of the pre-selected signals. One signal must be selected on the Y-axis, and the other on the X-axis. The result is plotted on two separate graphs of magnitude and phase against time.

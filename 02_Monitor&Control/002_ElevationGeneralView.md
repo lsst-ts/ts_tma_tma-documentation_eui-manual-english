@@ -59,7 +59,7 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_PantallaLockingPins.md)</p>
+<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -69,11 +69,11 @@ vertical slider.</p></td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_PantallaOSSGeneralView.md)</td>
+<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PantallaPowerSupply.md)</td>
+<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
 </tr>
 <tr class="odd">
 <td>7</td>

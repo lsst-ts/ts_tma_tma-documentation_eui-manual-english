@@ -48,7 +48,7 @@ interlock if one exists.</p></td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Commands a path set by a file, [see](./001_PantallaMainAxisGeneralView.md/#pantalla-tracking)</td>
+<td>Commands a path set by a file, [see](./001_MainAxisGeneralView.md/#pantalla-tracking)</td>
 </tr>
 <tr class="odd">
 <td>5</td>
