@@ -1,5 +1,7 @@
 #### Settings List
 
+Sorry for the typos in the names, but these are hardcoded in the code, so **DO NOT** change setting names without updating the code first.
+
 ##### AmbientTemperatureTracking
 
 ###### General Access Setting list
