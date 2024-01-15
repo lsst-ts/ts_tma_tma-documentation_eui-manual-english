@@ -1376,12 +1376,11 @@ There are no settings under this section.
 
 ###### General Access Setting list
 
-| Instance | Name | Type | Unit | Description |
-| ---- | ---- | ----------- | ----------------- | ----- |
-| General | ID String | STRING |  | This is not used for this subsystem, is kept for consistency. |
+There are no settings under this section.
 
 ###### Restricted Access Setting list
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
+| General | ID String | STRING |  | This is not used for this subsystem, is kept for consistency. |
 | General | SystemSource | STRING |  | This is the identifier for the system used when publishing the Alarm source. |
