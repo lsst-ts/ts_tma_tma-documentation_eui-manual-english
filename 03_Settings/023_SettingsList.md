@@ -68,7 +68,6 @@ Sorry for the typos in the names, but these are hardcoded in the code, so **DO N
 | Balancing1 | OffTrans_Timeout | DOUBLE | ms | Power off transition timeout |
 | Balancing1 | OnTrans_Timeout | DOUBLE | ms | Power on transition timeout |
 | Balancing1 | ResettingTime | DOUBLE | ms | Timeout for the reset transition. |
-| Balancing1 | SlewThreshold | DOUBLE |  | Deprecated, not in use, but kept to prevent errors. |
 | Balancing1 | Speed Limit | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Balancing1 | StopTrans_Timeout | DOUBLE | ms | Maximum time allowed for a stop command |
 | Balancing1 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
@@ -88,7 +87,6 @@ Sorry for the typos in the names, but these are hardcoded in the code, so **DO N
 | Balancing2 | OffTrans_Timeout | DOUBLE | ms | Power off transition timeout |
 | Balancing2 | OnTrans_Timeout | DOUBLE | ms | Power on transition timeout |
 | Balancing2 | ResettingTime | DOUBLE | ms | Timeout for the reset transition. |
-| Balancing2 | SlewThreshold | DOUBLE |  | Deprecated, not in use, but kept to prevent errors. |
 | Balancing2 | Speed Limit | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Balancing2 | StopTrans_Timeout | DOUBLE | ms | Maximum time allowed for a stop command |
 | Balancing2 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
@@ -106,7 +104,6 @@ Sorry for the typos in the names, but these are hardcoded in the code, so **DO N
 | Balancing3 | OffTrans_Timeout | DOUBLE | ms | Power off transition timeout |
 | Balancing3 | OnTrans_Timeout | DOUBLE | ms | Power on transition timeout |
 | Balancing3 | ResettingTime | DOUBLE | ms | Timeout for the reset transition. |
-| Balancing3 | SlewThreshold | DOUBLE |  | Deprecated, not in use, but kept to prevent errors. |
 | Balancing3 | Speed Limit | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Balancing3 | StopTrans_Timeout | DOUBLE | ms | Maximum time allowed for a stop command |
 | Balancing3 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
@@ -124,7 +121,6 @@ Sorry for the typos in the names, but these are hardcoded in the code, so **DO N
 | Balancing4 | OffTrans_Timeout | DOUBLE | ms | Power off transition timeout |
 | Balancing4 | OnTrans_Timeout | DOUBLE | ms | Power on transition timeout |
 | Balancing4 | ResettingTime | DOUBLE | ms | Timeout for the reset transition. |
-| Balancing4 | SlewThreshold | DOUBLE |  | Deprecated, not in use, but kept to prevent errors. |
 | Balancing4 | Speed Limit | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Balancing4 | StopTrans_Timeout | DOUBLE | ms | Maximum time allowed for a stop command |
 | Balancing4 | WaitAfterReset | DOUBLE | ms | Time to wait after a reset to go to idle |
@@ -343,7 +339,6 @@ There are no settings under this section.
 | ---- | ---- | ----------- | ----------------- | ----- |
 | General | ACW margin | DOUBLE | deg | Marin used in azimuth reference calculation with Azimuth Cable Wrap (ACW). The algorithm will use ACW as base value for azimuth and compare it to adapt to ACW value or to set as invalid reference. |
 | General | Azimuth Critical Active Heads | DOUBLE |  | If the number of active heads for azimuth axis is bellow this value an alarm will be triggered |
-| General | Azimuth heads reference threshold [i.u] | DOUBLE |  | Maximum error in the reference of azimuth heads |
 | General | Azimuth reference margin | DOUBLE | deg | If the reference between any head and the mean value of the 4 heads is higher than this value, the encoder reference (homing) will fail. |
 | General | Azimuth Tape Line Count | DOUBLE |  | Number of line counts in the azimuth tape |
 | General | Azimuth Telescope Offset | DOUBLE | deg | REBOOT AFTER CHANGING!! This is the offset between telescope zero and encoder tape zero for azimuth. The zero for encoder is the junction of the tape and the zero for telescope is the north orientation |
@@ -358,7 +353,6 @@ There are no settings under this section.
 | General | CMD timeout Relative Offset | DOUBLE | ms | Timeout to set the relative position offset in the EIB readings |
 | General | EIB config file path | STRING |  | The file path in PXI to get the EIB configuration. This file is Heidenhain developed file |
 | General | Elevation Critical Active Heads | DOUBLE |  | If the number of active heads for elevation axis is bellow this value an alarm will be triggered |
-| General | Elevation heads reference threshold [i.u] | DOUBLE | i.u. | Maximum error in the reference of elevation heads |
 | General | Elevation reference margin | DOUBLE | deg | If the reference between any head and the mean value of the 4 heads is higher than this value, the encoder reference (homing) will fail. |
 | General | Elevation Tape Line Count | DOUBLE |  | Number of line counts in the elevation tape |
 | General | Elevation Telescope Offset | DOUBLE | deg | This is the offset between telescope zero and encoder tape zero for Elevation. The zero for encoder is the start of the tape closest when telescope is horizon position and the zero for telescope is the horizon position |
@@ -498,7 +492,6 @@ There are no settings under this section.
 | Azimuth | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
 | Azimuth | Limits Negative Limit Switch enable | BOOLEAN |  | Enable negative Limit Switch |
 | Azimuth | Limits Negative Operational Limit Switch enable | BOOLEAN |  | Enable negative Operational limit switch |
-| Azimuth | Limits Negative Positive Software limit enable | BOOLEAN |  | Enable positive software limit in softmotion. Over this limit the axis does not allow any movement. |
 | Azimuth | Limits Negative Software limit enable | BOOLEAN |  | Enable negative software limit |
 | Azimuth | Limits Overspeed Warning Value | DOUBLE | deg/s | If this speed value is overcomed a speed limit warning will be triggered. |
 | Azimuth | Limits Positive Adjustable Software limit enable | BOOLEAN |  | Enable positive adjustable software limit |
@@ -609,6 +602,7 @@ There are no settings under this section.
 | Azimuth | Softmotion max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis. |
 | Azimuth | Softmotion Maximum Torque Per Drive | DOUBLE | Nm | The maximum allowed torque per drive. The system will not allow that command to each drive goes over this value |
 | Azimuth | Softmotion Minimun drives for no fault | DOUBLE |  | Bellow this limit the axis will be in fault |
+| Azimuth | Softmotion Necessary Hall Sensors | DOUBLE |  | If the number of active hall sensors is bellow this value and alarm will be triggered in the axis. This number should be 1 for Azimuth and 2 for elevation.  As an exception, it can be used 1 in elevation if one hall sensor is faulty, but all the motors th |
 | Azimuth | Softmotion No received Data Counter Alarm Value | DOUBLE |  | Above this number the  softmotion driver is in fault. Its time, no new data is received from encoder an internal counter increases its value by 1000, decreasing by 1 each no problem iteration |
 | Azimuth | Softmotion No received Data Counter Warning Value | DOUBLE |  | Above this number the softmotion driver send a warning. Its time, no new data is received from encoder an internal counter increases its value by 1000, decreasing by 1 each no problem iteration |
 | Azimuth | Softmotion Number of Electric Turns | DOUBLE |  | Number of electric turns in for the axis. This is the number of poles |
@@ -699,6 +693,7 @@ There are no settings under this section.
 | Elevation | Softmotion max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis. |
 | Elevation | Softmotion Maximum Torque Per Drive | DOUBLE | Nm | The maximum allowed torque per drive. The system will not allow that command to each drive goes over this value |
 | Elevation | Softmotion Minimun drives for no fault | DOUBLE |  | Bellow this limit the axis will be in fault |
+| Elevation | Softmotion Necessary Hall Sensors | DOUBLE |  | If the number of active hall sensors is bellow this value and alarm will be triggered in the axis. This number should be 1 for Azimuth and 2 for elevation.  As an exception, it can be used 1 in elevation if one hall sensor is faulty, but all the motors th |
 | Elevation | Softmotion No received Data Counter Alarm Value | DOUBLE |  | Above this number the  softmotion driver is in fault. Its time, no new data is received from encoder an internal counter increases its value by 1000, decreasing by 1 each no problem iteration |
 | Elevation | Softmotion No received Data Counter Warning Value | DOUBLE |  | Above this number the softmotion driver send a warning. Its time, no new data is received from encoder an internal counter increases its value by 1000, decreasing by 1 each no problem iteration |
 | Elevation | Softmotion Number of Electric Turns | DOUBLE |  | Number of electric turns in for the axis. This is the number of poles |
@@ -737,6 +732,8 @@ There are no settings under this section.
 | General | Inclinometer Mean Samples Number | DOUBLE |  | The number of samples used to calculate a mean with the inclinometer analog input |
 | General | Inclinometer Offset | DOUBLE | deg | Offset to apply to the inclinometer after applying the gain to the analog input |
 | General | Light Time (s) | DOUBLE | s | Time that the light will be lighting |
+| General | Softmotion Acceleration Filter Fc | DOUBLE | Hz | This value sets the cutoff frequency for the lowpass filter used in the acceleration and jerk calculations. |
+| General | Softmotion Acceleration Filter Order | DOUBLE |  | This value sets the order for the lowpass filter used in the acceleration and jerk calculations. |
 | General | TimeToCheckActiveAlarms | DOUBLE | ms | TimeToCheckActiveAlarms |
 
 ##### MainAxisSoftMotion
