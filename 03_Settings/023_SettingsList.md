@@ -1382,13 +1382,9 @@ There are no settings under this section.
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
 | General | ID String | STRING |  | This is not used for this subsystem, is kept for consistency. |
-| General | LocalRemote timeout | DOUBLE | ms | After this time the Top End chiller checking for local remote change will send a timeout error |
-| General | Power ON/OFF timeout | DOUBLE | ms | After this time the Top End chiller checking for power on or off will send a timeout error |
-| General | Reset pulse time | DOUBLE | ms | Time of the reset pulse sent to Top end chiller controller |
 
 ###### Restricted Access Setting list
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
 | General | SystemSource | STRING |  | This is the identifier for the system used when publishing the Alarm source. |
-| General | TimeToCheckActiveAlarms | DOUBLE | ms | TimeToCheckActiveAlarms |
