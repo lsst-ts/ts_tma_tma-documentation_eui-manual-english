@@ -486,7 +486,6 @@ There are no settings under this section.
 | Azimuth | HHD Max Acceleration | DOUBLE | deg/s^2 | Maximum allowed acceleration in HHD command mode |
 | Azimuth | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Azimuth | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
-| Azimuth | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
 | Azimuth | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
 | Azimuth | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Azimuth | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
@@ -518,7 +517,6 @@ There are no settings under this section.
 | Elevation | HHD Max Acceleration | DOUBLE | deg/s^2 | Maximum allowed acceleration in HHD command mode |
 | Elevation | HHD Max Jerk | DOUBLE | deg/s^3 | Maximum Jerk in HHD command mode |
 | Elevation | HHD Max Velocity | DOUBLE | deg/s | Maximum allowed velocity in HHD command mode |
-| Elevation | In Position Margin | DOUBLE | deg | This value is used to send the in position event |
 | Elevation | Limits Max Position enable | BOOLEAN |  | Maximum allowed position command verification is enabled |
 | Elevation | Limits Min Position enable | BOOLEAN |  | Minimum allowed position command verification is enabled |
 | Elevation | Limits Negative Adjustable Software limit enable | BOOLEAN |  | Enable negative adjustable software limit |
@@ -748,6 +746,7 @@ There are no settings under this section.
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
+| MainCabinet | ForceFansToOnAlways | BOOLEAN |  | This makes that the Fans are always on, even if the door cabinet is open |
 | MainCabinet | High Cabinet Temperature | DOUBLE | degC | Temperature causing a warning. |
 | MainCabinet | High Surface Temperature | DOUBLE | degC | The difference between ambient temperature and surface temperature is above the allowed one |
 | MainCabinet | Low Cabinet Temperature | DOUBLE | degC | Temperature causing a warning. |
@@ -769,6 +768,8 @@ There are no settings under this section.
 | MainCabinet | Maximum Setpoint Temperature | DOUBLE | degC | Maximum allowed temperature for setpoint |
 | MainCabinet | Minimum Setpoint Temperature | DOUBLE | degC | Minimum allowed temperature for setpoint |
 | MainCabinet | port | DOUBLE |  | This is the connection port for the modbus of the RMC. |
+| MainCabinet | RMC_ReconnectionRetriesBeforeHysteresis | DOUBLE |  | The system tries to recoonet to the RMC the number of time of this seeting. If fails all these time there is a fault in the statechart and the PXI start controlling the termperature with an hysteris algorithm. |
+| MainCabinet | RMC_ReconnectionTimeout | DOUBLE | ms | Timeout when recoonecting to the RMC modbus server |
 | MainCabinet | Special Error Lower Limit | DOUBLE |  | The error numbers between this setting and the Special Error Upper Limit will trigger the special fault in the main cabinet statechart. This special fault will trigger a fault in all subsystem to prepare for a possible cabinet switch off. |
 | MainCabinet | Special Error Upper Limit | DOUBLE |  | The error numbers between this setting and the Special Error Lower Limit will trigger the special fault in the main cabinet statechart. This special fault will trigger a fault in all subsystem to prepare for a possible cabinet switch off. |
 | MainCabinet | SystemSource | STRING |  | This is the identifier for the system used when publishing the Alarm source. |
@@ -1296,12 +1297,25 @@ There are no settings under this section.
 | ---- | ---- | ----------- | ----------------- | ----- |
 | General | TemperatureDeviationAlarm | DOUBLE | Cdeg | This is the temperature difference at which a TemperatureTooHigh alarm is sent, the difference must be positive for being an overtemperature. |
 | General | TemperatureDeviationWarning | DOUBLE | Cdeg | This is the temperature difference at which a TemperatureTooLow warning is sent, the difference must be negative for being an under temperature. |
+| OSS | EnabledLevelVariationHysteresis | DOUBLE | mm | Hysteris for the enabled level variation events |
+| OSS | EnabledLevelVariationWarning1 | DOUBLE | mm | Maximum allowed variation of the level when the OSS is enabled before tirggering a startup |
+| OSS | EnabledLevelVariationWarning2 | DOUBLE | mm | Maximum allowed variation of the level when the OSS is enabled before tirggering a startup |
+| OSS | EnabledLevelVariationWarning3 | DOUBLE | mm | Maximum allowed variation of the level when the OSS is enabled before tirggering a startup |
+| OSS | MinimumLevelAlarm | DOUBLE | mm | Bellow these level the OSS will trigger a low level alarm |
+| OSS | MinimumLevelHysteresis | DOUBLE | mm | The hsysteris value for the minimum level |
+| OSS | MinimumLevelWarning | DOUBLE | mm | Bellow these level the OSS will trigger a low level warning |
+| OSS | SecondsToUpdateTankLevelReference | DOUBLE | s | Seconds to keep updating the reference tank level variable after reacing the enable state. This is required to lat the system reach a stabilization level, as it takes long for the oil to come back to the tank after an enabling. |
+| OSS | StartupLevelVariationHysteresis | DOUBLE | mm | Hysteris for the startup level variation events |
+| OSS | StartupLevelVariationWarning1 | DOUBLE | mm | Maximum allowed variation of the level during OSS startup before tirggering a startup |
+| OSS | StartupLevelVariationWarning2 | DOUBLE | mm | Maximum allowed variation of the level during OSS startup before tirggering a startup |
 | OSS | watchdogMaximumTime | DOUBLE | s | Maximum time that the controller will wait without a watchdog signal |
 
 ###### Restricted Access Setting list
 
 | Instance | Name | Type | Unit | Description |
 | ---- | ---- | ----------- | ----------------- | ----- |
+| General | AlarmCodesForLevelActivatedInEnable | STRING |  | Coma separated list of alarm codes that do are activated when the system is on enable |
+| General | AlarmCodesForLevelActivatedInPowering | STRING |  | Coma separated list of alarm codes that do are activated when the system starts poweirng on |
 | General | AlarmCodesNoFaultTransition | STRING |  | Coma separated list of alarm codes that do not make the system go to fault |
 | General | TemperatureDeviationHysteresis | DOUBLE | Cdeg | This is the temperature hysteresis for temperature deviation alarm and warning. |
 | General | TimeToCheckActiveAlarms | DOUBLE | ms | TimeToCheckActiveAlarms |
