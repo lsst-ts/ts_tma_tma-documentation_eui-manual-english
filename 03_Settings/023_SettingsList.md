@@ -595,6 +595,10 @@ There are no settings under this section.
 | Azimuth | Softmotion In position buffer size | DOUBLE |  | This value manage the buffer size to calculate the position rms value that is used for In position event |
 | Azimuth | Softmotion In position Hysteresis | DOUBLE | deg | This value added to the Softmotion In position Margin determines when the in position is set to false |
 | Azimuth | Softmotion In position Margin | DOUBLE | deg | This value will indicate when the softmotion axis indicates that the axis in desired position |
+| Azimuth | Softmotion longSlew max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Azimuth | Softmotion longSlew max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available jerk for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Azimuth | Softmotion longSlew max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Azimuth | Softmotion longSlew threshold | DOUBLE | deg | This is the threshold for defining when a slew is set to be a long slew and use the according softmotion longSlew performance values. |
 | Azimuth | Softmotion max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration for the axis. |
 | Azimuth | Softmotion max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available jerk for the axis. |
 | Azimuth | Softmotion max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis. |
@@ -686,6 +690,10 @@ There are no settings under this section.
 | Elevation | Softmotion In position buffer size | DOUBLE |  | This value manage the buffer size to calculate the position rms value that is used for In position event |
 | Elevation | Softmotion In position Hysteresis | DOUBLE | deg | This value added to the Softmotion In position Margin determines when the in position is set to false |
 | Elevation | Softmotion In position Margin | DOUBLE | deg | This value will indicate when the softmotion axis indicates that the axis in desired position |
+| Elevation | Softmotion longSlew max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Elevation | Softmotion longSlew max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available jerk for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Elevation | Softmotion longSlew max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis when doing a long slew, this is defined by the longSlew Threshold setting |
+| Elevation | Softmotion longSlew threshold | DOUBLE | deg | This is the threshold for defining when a slew is set to be a long slew and use the according softmotion longSlew performance values. |
 | Elevation | Softmotion max acceleration | DOUBLE | deg/s^2 | This acceleration is the maximum available acceleration for the axis. |
 | Elevation | Softmotion max jerk | DOUBLE | deg/s^3 | This jerk is the maximum available jerk for the axis. |
 | Elevation | Softmotion max speed | DOUBLE | deg/s | This speed is the maximum available speed for the axis. |
