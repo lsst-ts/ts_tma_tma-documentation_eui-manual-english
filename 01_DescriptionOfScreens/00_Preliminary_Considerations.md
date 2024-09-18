@@ -15,7 +15,7 @@ There are four different user types:
   always within the preset limits for each of them. This type of user cannot save settings permanently and their changes are temporary.
 - **D_Maintenance**: These are maintenance users. They can perform all operations and set all settings within the limits pre-established for each of them.
 
-![Session login screen.](../Resources/media/image008.JPG){width=75%}
+![Session login screen.](../Resources/media/image008.JPG)
 
 *Figure 2‑1. Session login screen.*
 

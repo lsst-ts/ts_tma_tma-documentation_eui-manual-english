@@ -33,13 +33,14 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
     </tr>
   </tbody>
 </table>
+
 <table>
   <colgroup>
     <col style="width: 8%" />
     <col style="width: 91%" />
   </colgroup>
   <tbody>
-    <tr class="odd">
+    <tr class="even">
       <td>⚠️</td>
       <td>
         <p><strong>WARNING</strong></p>
@@ -56,6 +57,7 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
     </tr>
   </tbody>
 </table>
+
 <table>
   <colgroup>
     <col style="width: 8%" />
@@ -88,7 +90,7 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
 
 ### GENERAL SAFETY CONDITIONS
 
-![Stop signal](../Resources/media/image005.png){width=10%}
+![Stop signal](../Resources/media/image005.png)
 
 - 🛑 **PERSONNEL USING THE SOFTWARE MUST BE QUALIFIED OR INSTRUCTED PERSONNEL WHO HAVE BEEN GIVEN SPECIFIC TRAINING IN THE USE OF THIS SOFTWARE, INCLUDING ITS HAZARDS, THE SAFETY MEASURES TO BE TAKEN AND OBSERVED, AS WELL AS THE PERSONAL PROTECTIVE EQUIPMENT TO BE USED AND THE ACTIONS THAT MUST NOT BE CARRIED OUT.**
 
@@ -102,7 +104,7 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
 
 - 🛑 **BEFORE OPERATING THIS SOFTWARE IN ANY WAY, THE GENERAL SAFETY CONDITIONS IN THE SAFETY MANUAL MUST BE READ AND OBSERVED.**
 
-![Warning sign](../Resources/media/image006.png "title"){width=10%}
+![Warning sign](../Resources/media/image006.png "title")
 
 - ⚠️ **Production personnel must not change settings that could affect the basic operation of the system.**
 
