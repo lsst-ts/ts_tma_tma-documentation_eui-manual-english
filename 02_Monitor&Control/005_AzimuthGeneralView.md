@@ -75,6 +75,7 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Azimuth General View Screen -- Move History
 
 This screen displays and allows the loading of the last five azimuth movements, with number 1 being the last.
