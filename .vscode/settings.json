@@ -1,0 +1,32 @@
+{
+  "markdownlint.config": {
+    "MD024": false,
+    "MD033": false
+  },
+  "cSpell.language": "en,es",
+  "cSpell.words": [
+    "AZCW",
+    "behaviour",
+    "bosch",
+    "Cdeg",
+    "cmds",
+    "DisableColisionCheck",
+    "feedforward",
+    "homming",
+    "lowpass",
+    "Maximun",
+    "Minimun",
+    "overrided",
+    "overspeed",
+    "overtemperature",
+    "Psotion",
+    "reflexxess",
+    "Reseting",
+    "Softkey",
+    "softkeys",
+    "softmotion",
+    "statechart",
+    "Traking",
+    "Trns"
+  ]
+}
