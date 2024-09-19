@@ -6,7 +6,7 @@ This screen displays the statuses and movements of the "Camera Cable Wrap” mot
 
 | WARNING| WARNING|
 |----------|----------|
-| ![](../Resources/media/image005.png){width=5%}| **THIS ELEMENT MUST NOT BE USED IF THE CAMERA IS CONNECTED, EXCEPT BY STAFF TRAINED IN THE WRAP AND CAMERA CABLE WRAP.**|
+| ![](../Resources/media/image005.png)| **THIS ELEMENT MUST NOT BE USED IF THE CAMERA IS CONNECTED, EXCEPT BY STAFF TRAINED IN THE WRAP AND CAMERA CABLE WRAP.**|
 
 ![](../Resources/media/image67.png)
 

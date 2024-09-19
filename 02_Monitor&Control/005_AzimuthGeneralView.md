@@ -27,7 +27,7 @@ This screen displays the general aspects of the azimuth axis and enables their c
 <li><p>Green: Means that it is on.</p></li>
 <li><p>Grey: Means that it is off.</p></li>
 </ul>
-<p>The orange triangle with the text "not homed" means that the axis reference has not been made.</p>>
+<p>The orange triangle with the text "not homed" means that the axis reference has not been made.</p>
 <p>Displays the status of the travel limits. The box corresponding to the limit that is
 green.</p>
 <p>Shows whether or not the brake is applied. The “Engaged” option is represented by a red box when it is, or
@@ -75,6 +75,7 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Azimuth General View Screen -- Move History
 
 This screen displays and allows the loading of the last five azimuth movements, with number 1 being the last.
