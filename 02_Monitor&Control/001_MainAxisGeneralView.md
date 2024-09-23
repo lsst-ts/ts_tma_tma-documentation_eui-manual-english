@@ -24,7 +24,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td><p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p>
+<td><p>Accesses the screen <a href="./002_ElevationGeneralView.md">Elevation General View</a></p>
 <p>Displays the “Elevation” status, position (in deg) and the setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -36,7 +36,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 </tr>
 <tr class="even">
 <td>2</td>
-<td><p>Accesses the screen [“Azimuth General View”](./005_AzimuthGeneralView.md)</p>
+<td><p>Accesses the screen <a href="./005_AzimuthGeneralView.md">Azimuth General View</a></p>
 <p>Displays the “Azimuth” status, position (in deg) and setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -82,7 +82,7 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="even">
 <td>8</td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
+<td><p>Accesses the screen <a href="./004_LockingPins.md">Locking Pins General View</a></p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -92,15 +92,15 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="odd">
 <td>9</td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
+<td>Displays the status and accesses the screen <a href="./008_OSSGeneralView.md">OSS General View</a></td>
 </tr>
 <tr class="even">
 <td>10</td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
+<td>Displays the status and accesses the screen <a href="./018_PowerSupply.md">Power Supply General View</a></td>
 </tr>
 <tr class="odd">
 <td>11</td>
-<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_AzimuthCableWrap.md)</p>
+<td><p>Accesses the screen <a href="./006_AzimuthCableWrap.md">Azimuth Cable Wrap</a></p>
 <p>Displays the status and position (in deg) of the “Azimuth Cable Wrap (ACW)”.</p></td>
 </tr>
 <tr class="even">
@@ -111,6 +111,7 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Main Axis General View Screen -- Current Move XY
 
 This screen allows the azimuth and elevation axes to be commanded at the same time, represented on the X and Y axes.
@@ -139,6 +140,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 </tr>
 </tbody>
 </table>
+
 ##### Main Axis General View Screen -- Move History
 
 This screen displays and loads the last five azimuth and elevation movements, with number 1 being the last.
@@ -166,6 +168,7 @@ This screen displays and loads the last five azimuth and elevation movements, wi
 </tr>
 </tbody>
 </table>
+
 ###### Tracking Screen
 
 This screen is displayed as a “Popup” by clicking on the "LOAD" button on the "Main Axis General View" screen, allowing a file with a fixed path to be selected. This selected path will be executed by pressing the "EXECUTE" button of the "Main Axis General View” screen.
