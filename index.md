@@ -85,6 +85,7 @@ The manual consists of the following sections:
   - [Bosch System Settings](./03_Settings/020_BoschSystemSettings.md)
   - [TMA RT MAIN Settings](./03_Settings/021_TMARTMAINSettings.md)
   - [Ambient Temperature Settings](./03_Settings/022_AmbientTemperatureSettings.md)
+  - [Settings List](./03_Settings/023_SettingsList.md)
 - Hand Held Device HHD
   - [Introduction](./04_HHD/000_Introduction.md)
   - [HHD Connection](./04_HHD/001_HHD_Connection.md)
