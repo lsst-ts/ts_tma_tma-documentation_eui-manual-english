@@ -8,18 +8,16 @@ This screen displays the statuses of the "Mirror Cover” and enables control of
 
 *Figure 2‑45. Mirror cover general view screen - main view.*
 
-<table>
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
+<table class="table">
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status and position (in deg) of the “Mirror Cover”.</p>
 <p>The box next to “run/alarm” lights up in the colour corresponding to the “Mirror Cover” status.</p>
 <p>Shows whether the “Mirror Covers” are retracted, deployed, locked or unlocked. The corresponding option
@@ -29,12 +27,12 @@ lights up in green.</p>
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkeys “Y+”, “X+”, “Y-” and “X-”: Selects the desired “Mirror Cover”.</p>
 <p>Softkey “ALL”: Selects all four “Mirror Covers” at the same time.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkey “ON”: Turns on the selected “Mirror Cover”, or all if “ALL” is selected, only if in
 “Idle” and no interlock is active.</p>
 <p>Softkey “OFF”: Turns off the system.</p>
@@ -42,13 +40,13 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 interlock if one exists.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td><p>Only available when all axes are selected, softkey “ALL”.</p>
+<td><p>4</p></td>
+<td><p>Only available when all axes are selected, softkey “ALL”. See details in section below.</p>
 <p>Softkey “DEPLOY”: Deploys all “Mirror Covers”.</p>
 <p>Softkey “RETRACT”: Retracts all “Mirror Covers”.</p></td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td><p>5</p></td>
 <td><p>Adjusts the position (in deg) and speed (in deg/s) of the “Mirror Covers”. This is only possible if
 they are individually controlled.</p>
 <p>Softkeys “+” or “-”: Makes a movement at a constant speed in a positive or negative direction
@@ -104,18 +102,16 @@ This screen shows a graph of the movement of the “Mirror Covers” in real tim
 
 *Figure 2‑46. Mirror cover general view screen - current move.*
 
-<table>
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
+<table class="table">
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph of the movement of the “Mirror Covers” in real time.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
@@ -131,18 +127,16 @@ This screen displays and loads the last five movements of the “Mirror Covers�
 
 *Figure 2‑47. Mirror cover general view screen - move history.*
 
-<table>
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
+<table class="table">
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>
