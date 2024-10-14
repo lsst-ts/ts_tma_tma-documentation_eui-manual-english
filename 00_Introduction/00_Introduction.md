@@ -10,14 +10,10 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
 
 #### Symbols used in the Manual
 
-<table>
-  <colgroup>
-    <col style="width: 8%" />
-    <col style="width: 91%" />
-  </colgroup>
+<table class="table">
   <tbody>
     <tr class="odd">
-      <td>🛑</td>
+      <td style="font-size: 30px;"> 🛑 </td>
       <td>
         <p><strong>DANGER</strong></p>
         <p>
@@ -31,17 +27,8 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
         </ul>
       </td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <colgroup>
-    <col style="width: 8%" />
-    <col style="width: 91%" />
-  </colgroup>
-  <tbody>
     <tr class="even">
-      <td>⚠️</td>
+      <td style="font-size: 30px;"> ⚠️ </td>
       <td>
         <p><strong>WARNING</strong></p>
         <p>
@@ -55,17 +42,8 @@ TEKNIKER accepts no liability for any consequences resulting from modifications 
         </ul>
       </td>
     </tr>
-  </tbody>
-</table>
-
-<table>
-  <colgroup>
-    <col style="width: 8%" />
-    <col style="width: 91%" />
-  </colgroup>
-  <tbody>
     <tr class="odd">
-      <td>ℹ️</td>
+      <td style="font-size: 30px;"> ℹ️ </td>
       <td>
         <p><strong>NOTE</strong></p>
         <p>
