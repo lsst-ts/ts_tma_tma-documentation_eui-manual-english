@@ -60,6 +60,42 @@ vertical slider.</p>
 </tbody>
 </table>
 
+###### Mirror Cover Deploy/Retract sequence
+
+<table class="table">
+  <thead>
+    <tr class="odd">
+      <td class="head" style="font-size: 30px;"> ℹ️ </td>
+      <td class="head">
+        <p><strong>REMEMBER</strong></p>
+        <p>
+          Before using the Deploy/Retract buttons power on the *Mirror Cover Locks* (MCLs), as these two commands will
+          fail if the MCLs are not enabled.
+        </p>
+      </td>
+    </tr>
+  </thead>
+</table>
+
+- Deploy sequence: this sequence is for extending all Mirror Covers (MCs), which requires the MCLs to be in the unlocked
+  position to permit motion. Sequence steps after pressing the Deploy button:
+  - All the MCLs are moved to the unlock position
+  - When the MCLs reach the unlocked position, two MCs are moved (Y+ and Y-)
+  - When the MCs reach the extended position, two MCs are moved (X+ and X-)
+  - When the MCs reach the extended position, the command is ended successfully
+- Retract sequence: this sequence is for retracting all Mirror Covers (MCs), which requires the MCLs to be in the locked
+  position when completed. Sequence steps after pressing the Retract button:
+  - Two MCs are moved (X+ and X-)
+  - When the MCs reach the retracted position, two MCs are moved (Y+ and Y-)
+  - When the MCs reach the retracted position, all the MCLs are moved to the lock position
+  - When the MCLs reach the retracted position, the command is ended successfully
+
+For both commands, if during any of the steps of the sequence a fault occurs the motion will be stopped. Sending the command
+again, repressing the button, should work and complete the sequence successfully.
+
+> The limit switches indicating the Locked/Unlocked and Deployed/Retracted positions will be turned on when the
+> command is complete, but these are very delicate and sometimes are unpressed when elevation is moved.
+
 ##### Mirror Cover General View Screen -- Current Move
 
 This screen shows a graph of the movement of the “Mirror Covers” in real time.
