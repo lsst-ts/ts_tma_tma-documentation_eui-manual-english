@@ -8,26 +8,26 @@ This screen displays the elevation axis locking pins and enables their control.
 
 *Figure 2‑20. Locking pins screen - main view.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13%" />
 <col style="width: 86%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status of the locking pins:</p>
 <ul>
 <li><p>“Free”, in green. Movement of the elevation shaft is permitted in this position.</p></li>
 <li><p>“Test”, in orange. Fine balancing of the elevation shaft is performed in this position.</p></li>
 </ul>
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 89%" />
@@ -46,14 +46,14 @@ This screen displays the elevation axis locking pins and enables their control.
 lights up in the colour corresponding to the status of the pin.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “ON”: Only turns on the pin if it is in “Idle” and no interlock is active.</p>
 <p>Softkey “OFF”: Turns off the pin.</p>
 <p>Softkey “RESET ALARM”: Resets the system from its current alarm state or resets the
 interlock if one exists.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkey “BOTH”: Selects both pins.</p>
 <p>Softkey “X-”: Selects the pin located in the “X-” bracket.</p>
 <p>Softkey “X+”: Selects the pin located in the “X+” bracket.</p>
@@ -66,16 +66,16 @@ respectively. This sets the percentage of the default speed defined in the setti
 vertical slider.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
+<td><p>4</p></td>
 <td>Displays the status and allows access to the screen [“Balancing General View”](./024_BalancingGeneralView.md)</td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td><p>5</p></td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
 <p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
 </tr>
 <tr class="even">
-<td>6</td>
+<td><p>6</p></td>
 <td><p>The blue softkey navigates between the active interlocks, if there is more than one.</p>
 <p>When an interlock is active, the top box is displayed in red. If no interlocks are active, the
 box will be green and the blue softkey cannot be pressed.</p></td>
@@ -90,20 +90,20 @@ This screen shows a graph of the movement of the locking pins in real time.
 
 *Figure 2‑21. Locking pins screen - current move.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13%" />
 <col style="width: 86%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph of the movement of the locking pins in real time.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
@@ -118,20 +118,20 @@ This screen displays and loads the last five movements of the locking pins, with
 
 *Figure 2‑22. Locking pins screen - move history.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13%" />
 <col style="width: 86%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>

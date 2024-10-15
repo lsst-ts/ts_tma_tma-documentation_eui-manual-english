@@ -6,22 +6,22 @@ This screen displays the list of deployable platform settings and allows their c
 
 *Figure 2‑93. Deployable platform settings screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td>Displays the deployable platforms settings list.</td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Changes the setting values of the different instances.</p>
 <p>Deployable “Instance”: Selects the desired instance of the subsystem, in this case the deployable
 platforms.</p>

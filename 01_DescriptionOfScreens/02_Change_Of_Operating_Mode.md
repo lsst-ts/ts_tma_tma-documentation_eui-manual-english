@@ -15,9 +15,9 @@ For example, if the master is the EUI, it will have the green screen frame, whil
 
 | ITEM| DESCRIPTION|
 |----------|----------|
-| 1| \<p>Switches the control mode to EUI and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
-| 2| \<p>Switches the control mode to HHD and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
-| 3| \<p>Switches the control mode to CSC and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
+| 1| Switches the control mode to EUI and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
+| 2| Switches the control mode to HHD and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
+| 3| Switches the control mode to CSC and returns to the ["HOME"](./01_Home_Screen_Home.md) screen|
 | 4| Return to the previous screen ["HOME"](./01_Home_Screen_Home.md)|
 
 The following figure shows an example of a screen in CSC operating mode, i.e. which doesn’t have command and therefore has a red frame.

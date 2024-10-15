@@ -6,18 +6,18 @@ This screen displays and allows control of the power supply, which charges the c
 
 *Figure 2‑42. Power supply display.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status, current (in amps) and voltage (in volts) of the power supply. The displayed
 values represent the voltage and current of the direct part of the power supply.</p>
 <p>Displays the graph of voltage and current against time.</p>
@@ -28,7 +28,7 @@ values represent the voltage and current of the direct part of the power supply.
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “ON”: Only turns on the power supply if it is in “Idle” and no interlocks are active.</p>
 <p>Softkey “OFF”: Turns off the power supply.</p>
 <p>Softkey “RESET ALARM”: Resets the system from its current alarm state or resets the

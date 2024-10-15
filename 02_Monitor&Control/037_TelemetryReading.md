@@ -9,22 +9,22 @@ older data.
 
 *Figure 2‑71. Telemetry reading screen*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td>A graph is displayed showing the loaded telemetry data history.</td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “LOAD”: Selects the desired telemetry file.</p>
 <p>The selection can be filtered by choosing the desired systems and variables. The available variables will change
 depending on the selected systems. To select more than one option at the same time, press and

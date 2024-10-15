@@ -4,19 +4,19 @@ This screen displays the status and allows the control of the Top End Chiller ca
 
 ![TEC Cabinets](../Resources/media/TEC_Cabinets.png)
 
-<table>
+<table class="table">
   <colgroup>
     <col style="width: 13<col style="width: 86
   </colgroup>
 <thead>
 <tr class="header">
-      <th>ITEM</th>
-      <th>DESCRIPTION</th>
+      <th><p>ITEM</p></th>
+      <th><p>DESCRIPTION</p></th>
     </tr>
   </thead>
   <tbody>
     <tr class="odd">
-      <td>1</td>
+      <td><p>1</p></td>
       <td>
         <p>
           Displays the status of the “Top End Chiller (TEC)” Cabinets and lights up the LEDs in the corresponding color.

@@ -6,18 +6,18 @@ This screen shows the values of the “Oil Supply System (OSS)” oil cooling sy
 
 *Figure 2‑31. OSS oil cooling screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the pressures (in bar) and temperatures (in ºC) of the system elements.</p>
 <p>Pumps, valves and coolers light up in the colour corresponding to their status:</p>
 <ul>

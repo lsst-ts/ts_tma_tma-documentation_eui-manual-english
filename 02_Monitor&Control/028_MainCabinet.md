@@ -6,18 +6,18 @@ This screen displays the temperature of the main cabinet of the MCS, TMA-AZ-CS-C
 
 *Figure 2‑62. Main cabinet screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status, external temperature (in ºC), internal temperature 1 (in ºC), internal temperature 2
 (in ºC) and the setpoint (in ºC) of the main cabinet.</p>
 <p>This screen can have two different fault statuses:</p>
@@ -37,7 +37,7 @@ temperature.</p></li>
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “RESET ALARM”: Resets the controller alarms or resets the interlock if
 there is one.</p>
 <p>Softkey “TRACK SETPOINT”: Enables manual temperature control using the value entered in

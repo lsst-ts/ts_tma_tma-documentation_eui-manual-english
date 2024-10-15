@@ -8,18 +8,18 @@ This screen displays the statuses and movements of the motors that move the mass
 
 *Figure 2‑54. Balancing general view screen - main view.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status and position (in mm) of the motors. The box next to each motor lights up in the colour
 corresponding to its status.</p>
 <p>Displays the status of the limits of each motor. The box corresponding to the active limit lights up in
@@ -29,19 +29,19 @@ green.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkeys “90 X+”, “0 X+”, “90 X-” and “0 X-“: Select the balancing mass.</p>
 <p>Softkey “ALL”: Selects the four balancing masses.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkey “ON”: Switches on the selected balancing mass, or all of them, depending on the selection.</p>
 <p>Softkey “OFF”: Switches off the selected balancing mass, or all of them, depending on the selection.</p>
 <p>Softkey “RESET ALARM”: Resets the selected balancing mass, or all of them, depending on the selection and
 resets the interlock if one exists.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
+<td><p>4</p></td>
 <td><p>Only available when all axes are selected at the same time.</p>
 <p>Softkey “SIDE TO SIDE”: Moves all masses from side to side and returns them to the starting point. All masses
 move one at a time.</p>
@@ -50,7 +50,7 @@ move one at a time.</p>
 in item 6 of this table.</p></td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td><p>5</p></td>
 <td><p>Adjusts the position (in deg) and speed (in deg/s) of the balancing motor, always
 individually.</p>
 <p>Softkeys “+” or “-”: Makes a movement at a constant speed in a positive or negative direction
@@ -60,11 +60,11 @@ vertical slider.</p>
 <p>Softkey “STOP”: Stop the movement of the axes.</p></td>
 </tr>
 <tr class="even">
-<td>6</td>
+<td><p>6</p></td>
 <td>Displays the values saved in [“Settings”](../03_Settings/012_BalancingSettings.md).</td>
 </tr>
 <tr class="odd">
-<td>7</td>
+<td><p>7</p></td>
 <td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
@@ -74,12 +74,12 @@ vertical slider.</p>
 </ul></td>
 </tr>
 <tr class="even">
-<td>8</td>
+<td><p>8</p></td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
 <p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
 </tr>
 <tr class="odd">
-<td>9</td>
+<td><p>9</p></td>
 <td><p>The blue softkey navigates between the active interlocks, if there is more than one.</p>
 <p>When an interlock is active, the top box is displayed in red. If no interlocks are active, the
 box will be green and the blue softkey cannot be pressed.</p></td>
@@ -95,18 +95,18 @@ This screen shows a graph of the movement of the four masses used to balance the
 
 *Figure 2‑55. Balancing general view screen - current move.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Shows the graph of the movement of the four masses used to balance the elevation axis, in real
 time.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
@@ -123,18 +123,18 @@ This screen displays and loads the last five movements of the masses used to bal
 
 *Figure 2‑56. Balancing general view screen - move history.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>

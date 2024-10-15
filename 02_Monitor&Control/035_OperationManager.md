@@ -6,18 +6,18 @@ This screen shows a history of all commands sent by the CSC. It is a monitoring 
 
 *Figure 2‑69. Operation manager screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status of the C++ application that receives the commands and sends them to the PXI, named "MtMount Operation
 Manager”. The top box lights up in the corresponding colour.</p>
 <p>A list is displayed with the history of commands received from the CSC along with their respective dates.</p>

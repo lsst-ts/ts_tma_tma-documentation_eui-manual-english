@@ -14,24 +14,24 @@ This screen shows the safety system in table format. The rows being the causes, 
 
 *Figure 2‑68. Safety system screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the table of causes and subsystems.</p>
 <p>Enables browsing through the interlocks.</p>
 <p>Enables selection of the desired causes to be added to the item 2 list.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Displays the selected causes.</p>
 <p>Softkey “RESET SELECTED”: Resets the selected cause (or causes). If the cause is not active it will
 reset. If it remains active it will not reset.</p>

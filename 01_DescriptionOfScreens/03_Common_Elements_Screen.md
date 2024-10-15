@@ -6,44 +6,39 @@ The following figure shows the elements common to all the "Monitor \& Control" s
 
 *Figure 2‑10. Common elements screen.*
 
-<table>
-  <colgroup>
-    <col style="width: 13%" />
-    <col style="width: 86%" />
-  </colgroup>
+<table class="table">
   <thead>
     <tr class="header">
-      <th>ITEM</th>
-      <th>DESCRIPTION</th>
+      <th><p>ITEM</p></th>
+      <th><p>DESCRIPTION</p></th>
     </tr>
   </thead>
   <tbody>
     <tr class="odd">
-      <td>1</td>
-      <td>Displays the telescope temperature in real time.</td>
+      <td><p>1</p></td>
+      <td><p>Displays the telescope temperature in real time.</p></td>
     </tr>
     <tr class="even">
-      <td>2</td>
-      <td>Displays the title of the screen and its corresponding path </td>.
+      <td><p>2</p></td>
+      <td><p>Displays the title of the screen and its corresponding path</p></td>.
     </tr>
     <tr class="odd">
-      <td>3</td>
+      <td><p>3</p></td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor&Control/035_OperationManager.md">“Operation
-          Manager”</a>
+          Accesses the screen <a href="../02_Monitor&Control/035_OperationManager.html">“Operation Manager”</a>
         </p>
         <p>
-          Shows the statuses of the “Operation Manager”, <a href="./03_Common_Elements_Screen.md#estados">ver</a>
+          Shows the statuses of the “Operation Manager”, <a href="./03_Common_Elements_Screen.html#statuses">see</a>
         </p>
       </td>
     </tr>
     <tr class="even">
-      <td>4</td>
+      <td><p>4</p></td>
       <td>
         <p>
-          Accesses the screen [Safety System](../02_Monitor&Control/034_SafetySystem.md) Shows
-          four safety system signals:
+          Accesses the screen <a href="../02_Monitor&Control/034_SafetySystem.html">“Safety System”</a>
+          Shows four safety system signals:
         </p>
         <ul>
           <li>
@@ -74,11 +69,11 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       </td>
     </tr>
     <tr class="odd">
-      <td>5</td>
-      <td>Tekniker and Rubin logos.</td>
+      <td><p>5</p></td>
+      <td><p>Tekniker and Rubin logos.</p></td>
     </tr>
     <tr class="even">
-      <td>6</td>
+      <td><p>6</p></td>
       <td>
         <p>
           Menu with access to screens, which changes depending on the window
@@ -88,24 +83,23 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       </td>
     </tr>
     <tr class="odd">
-      <td>7</td>
-      <td>Space for monitoring and control windows.</td>
+      <td><p>7</p></td>
+      <td><p>Space for monitoring and control windows.</p></td>
     </tr>
     <tr class="even">
-      <td>8</td>
+      <td><p>8</p></td>
       <td>
         <p>The arrows allow you to scroll up and down in the window menu.</p>
         <p>
-          The centre softkey allows you to return to the
-          [“Home”](./01_Home_Screen_Home.md) screen
+          The centre softkey allows you to return to the <a href="./01_Home_Screen_Home.html">“Home”</a>
         </p>
       </td>
     </tr>
     <tr class="odd">
-      <td>9</td>
+      <td><p>9</p></td>
       <td>
         <p>
-          Accesses the screen [“Alarm History”](../02_Monitor%26Control/036_AlarmHistory.md)
+          Accesses the screen <a href="../02_Monitor%26Control/036_AlarmHistory.html">“Alarm History”</a>
         </p>
         <p>
           “GENERAL” softkey: accesses all alarms without filter.
@@ -117,10 +111,12 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       </td>
     </tr>
     <tr class="even">
-      <td>10</td>
+      <td><p>10</p></td>
       <td>
-        Mark on the screen, its colour changes depending on the operating mode,
-        [see](./02_Change_Of_Operating_Mode.md)
+        <p>
+          Mark on the screen, its color changes depending on the operating mode,
+          <a href="./02_Change_Of_Operating_Mode.html">“see”</a>
+        </p>
       </td>
     </tr>
   </tbody>

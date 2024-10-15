@@ -8,18 +8,18 @@ This screen displays the statuses and movements of the "Mirror Cover Locks” an
 
 *Figure 2‑48. Mirror cover locks screen - main view.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status and position (in deg) of the “Mirror Cover Locks”.</p>
 <p>The box next to “run/alarm” lights up in the colour corresponding to the lock status.</p>
 <p>Shows whether the “Mirror Covers” are retracted, locked or unlocked. The corresponding option lights
@@ -36,19 +36,19 @@ Cover”.</p></li>
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkeys “Y+”, “X+”, “Y-” and “X-”: Selects the desired “Mirror Cover”.</p>
 <p>Softkey “ALL”: Selects all four “Mirror Covers” at the same time.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkey “ON”: Only turns on the system if it is in “Idle” and no interlocks are active.</p>
 <p>Softkey “OFF”: Turns off the system.</p>
 <p>Softkey “RESET ALARM”: Resets the system from its current alarm state or resets the
 interlock if one exists.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
+<td><p>4</p></td>
 <td><p>Softkey “LOCK”: Locks the “Mirror Cover”.</p>
 <p>Softkey “UNLOCK”: Unlocks the “Mirror Cover”.</p>
 <p>Softkey “STOP”: Stops the movement.</p>
@@ -67,18 +67,18 @@ This screen shows a graph of the movement of the “Mirror Cover Locks” in rea
 
 *Figure 2‑49. Mirror cover locks screen - current move.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph of the movement of the “Mirror Cover Locks” in real time.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
@@ -94,18 +94,18 @@ This screen displays and loads the last five movements of the “Mirror Cover Lo
 
 *Figure 2‑50. Mirror cover locks screen - move history.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>

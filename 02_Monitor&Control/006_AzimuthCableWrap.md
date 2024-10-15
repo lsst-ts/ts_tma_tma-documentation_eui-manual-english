@@ -8,18 +8,18 @@ This screen displays the status and movement of the "Azimuth Cable Wrap (ACW)”
 
 *Figure 2‑25. Azimuth cable wrap screen - main view.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status, position 1 (in deg), position 2 (in deg) and the azimuth position (in deg) of the “Azimuth
 Cable Wrap (ACW)”.</p>
 <p>Position 1 refers to cable wrap motor 1, and position 2 refers to motor 2. The
@@ -34,14 +34,14 @@ is shown in grey.</p>
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “ON”: Only turns on the system if it is in “Idle” and no interlocks are active.</p>
 <p>Softkey “OFF”: Turns off the system.</p>
 <p>Softkey “RESET ALARM”: Resets the system from its current alarm state or resets the
 interlock if one exists.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Defines the position (in deg) and the speed (in deg/s) of the “Azimuth Cable Wrap (ACW)”.</p>
 <p>Softkeys “1” and “2”: Selects the desired drive.</p>
 <p>Softkey “MOVE”: Moves the system, in this case the “Azimuth Cable Wrap (ACW)”.</p>
@@ -60,18 +60,18 @@ This screen displays a graph of the “Azimuth Cable Wrap (ACW)” movement in r
 
 *Figure 2‑26. Azimuth cable wrap screen - current move.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the graph of the “Azimuth Cable Wrap (ACW)” movement in real time.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
@@ -86,18 +86,18 @@ This screen displays and loads the last five "Azimuth Cable Wrap (ACW)” moveme
 
 *Figure 2‑27. Azimuth cable wrap screen - move history.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>

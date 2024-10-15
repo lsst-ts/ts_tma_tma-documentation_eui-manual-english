@@ -10,24 +10,24 @@ This screen allows the selected axis, Azimuth or Elevation, to be excited, in or
 
 *Figure 2‑38. Axis transfer function screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph with the real-time values relating to the telescope controller.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “AZIMUTH”: Selects the azimuth heads. The test will be performed on the
 azimuth axis.</p>
 <p>Softkey “ELEVATION”: Selects the elevation settings. The test will be performed on the

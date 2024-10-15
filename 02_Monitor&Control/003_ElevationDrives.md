@@ -8,20 +8,20 @@ This screen displays the statuses and values of the elevation motors and enables
 
 *Figure 2‑18. Elevation drives screen - status.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13%" />
 <col style="width: 86%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Shows the status of the elevation motors. There are three different statuses:</p>
 <ul>
 <li><p>“Disabled”, in grey, means that the motor is off.</p></li>
@@ -31,7 +31,7 @@ This screen displays the statuses and values of the elevation motors and enables
 </ul></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “RESET ALL DRIVES”: resets all motors.</p>
 <p>Softkeys “1”, “2”, “3”, “4”, “5” and “6”: select the corresponding motor.</p>
 <p>Softkey “ON”: Starts up the previously selected drive.</p>
@@ -49,20 +49,20 @@ This screen shows a graph with the real time current values of the elevation mot
 
 *Figure 2‑19. Elevation drives screen - values.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13%" />
 <col style="width: 86%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph with the real time values of the elevation motors.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>

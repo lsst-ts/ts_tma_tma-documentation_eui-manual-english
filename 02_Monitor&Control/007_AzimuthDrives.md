@@ -8,18 +8,18 @@ This screen shows the statuses and values of the azimuth motors and enables thei
 
 *Figure 2‑28. Azimuth drives - status screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Shows the status of the azimuth. There are three different statuses:</p>
 <ul>
 <li><p>“Idle”, in grey, means that the motor is off.</p></li>
@@ -29,7 +29,7 @@ This screen shows the statuses and values of the azimuth motors and enables thei
 </ul></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “RESET ALL DRIVES”: Resets all drives.</p>
 <p>Softkeys “1”, “2”, “3”, and “4”: Selects the desired drives.</p>
 <p>Softkey “ON”: Starts up the previously selected drive.</p>
@@ -48,18 +48,18 @@ This screen shows a graph with the real time azimuth drive current values.
 
 *Figure 2‑29. Azimuth drives screen - values.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays a graph with the real time values of the azimuth drives.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>

@@ -12,18 +12,18 @@ This screen displays the statuses and movements of the "Camera Cable Wrap” mot
 
 *Figure 2‑51. Camera cable wrap screen - main view.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status, position 1 (in deg), position 2 (in deg) and the published position (in deg) of “Camera
 Cable Wrap”.</p>
 <p>Displays the status of the travel limits. The box corresponding to the active limit lights up in
@@ -35,23 +35,23 @@ of the drive.</p>
 box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “ON”: Only turns on the system if it is in “Idle” and no interlocks are active.</p>
 <p>Softkey “OFF”: Turns off the system.</p>
 <p>Softkey “RESET ALARM”: Resets the system from its current alarm state or resets the
 interlock if one exists.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkeys “1” and “2”: Selects the desired drive.</p>
 <p>Softkey “RESET DRIVES”: Resets the drives.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
+<td><p>4</p></td>
 <td>Commands a path set by a file, [see](./001_MainAxisGeneralView.md/#pantalla-tracking)</td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td><p>5</p></td>
 <td><p>Adjusts the position (in deg) and speed (in deg/s) of the “Camera Cable Wrap”.</p>
 <p>Softkeys “+” or “-”: Makes a movement at a constant speed in a positive or negative direction
 respectively. This sets the percentage of the default speed defined in the settings with the
@@ -70,18 +70,18 @@ This screen shows a graph of the real time "Camera Cable Wrap" movement.
 
 *Figure 2‑52. Camera cable wrap screen - current move.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the graph of the real time “Camera Cable Wrap” movement.</p>
 <p>Softkey “FREEZE GRAPH”: Freezes the graph.</p>
 <p>Softkey “UPDATE GRAPH”: Allows the graph to be updated after being frozen.</p></td>
@@ -97,18 +97,18 @@ This screen displays and loads the last five "Camera Cable Wrap” movements, wi
 
 *Figure 2‑53. Camera cable wrap screen - move history.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Softkey “LOAD”: Loads the last five movements.</p>
 <p>Once the desired movement has been selected, it allows it to be displayed on the graph.</p></td>
 </tr>

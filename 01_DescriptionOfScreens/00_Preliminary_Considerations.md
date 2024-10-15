@@ -22,6 +22,7 @@ There are four different user types:
 Once logged in, the top left corner shows how is the current user.
 
 ![Logged user display](../Resources/media/userDisplay.png)
+
 *Figure 2‑1.1. Current user display.*
 
 #### Operating modes

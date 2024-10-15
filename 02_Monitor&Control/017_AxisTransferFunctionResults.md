@@ -10,23 +10,23 @@ In this case, it shows the characteristics of the test and data pickup against t
 
 *Figure 2‑39. Axis transfer function screen - time signals.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the configuration of the loaded test.</p>
 <p>Displays the graph of the time signal obtained in the test.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Selects a file to display on the graph.</p>
 <p>Softkey “LOAD FILE”: Loads the selected file.</p>
 <p>Selects one or several signals to be plotted on the Y-axis of the graph.</p>
@@ -45,18 +45,18 @@ This screen displays a FFT graph of the previously selected signals. The result 
 
 *Figure 2‑40. Axis transfer function screen - FFT.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the graphs of magnitude and phase against frequency (in Hz).</p>
 <p>Switches the frequency scale between linear and logarithmic.</p>
 <p>Switches the magnitude scale between linear and decibel.</p>
@@ -74,18 +74,18 @@ This screen displays a graph of the transfer function of the pre-selected signal
 
 *Figure 2‑41. Axis transfer function screen - transfer function.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the graphs of magnitude and phase against frequency (in Hz).</p>
 <p>Switches the frequency scale between linear and logarithmic.</p>
 <p>Switches the magnitude scale between linear and decibel.</p>

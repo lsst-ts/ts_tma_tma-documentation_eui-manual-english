@@ -6,19 +6,19 @@ This screen displays the status and allows the control of the Top End Chiller sy
 
 *Figure 2‑63. Top End Chiller screen.*
 
-<table>
+<table class="table">
   <colgroup>
     <col style="width: 13<col style="width: 86
   </colgroup>
 <thead>
 <tr class="header">
-      <th>ITEM</th>
-      <th>DESCRIPTION</th>
+      <th><p>ITEM</p></th>
+      <th><p>DESCRIPTION</p></th>
     </tr>
   </thead>
   <tbody>
     <tr class="odd">
-      <td>1</td>
+      <td><p>1</p></td>
       <td>
         <p>
           Displays the status of the “Top End Chiller (TEC)” and lights up the
@@ -54,7 +54,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="even">
-      <td>2</td>
+      <td><p>2</p></td>
       <td>
         <p>
           The following softkeys can only be used when the system is in
@@ -75,7 +75,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="odd">
-      <td>3</td>
+      <td><p>3</p></td>
       <td>
         <p>
           Softkey “ON”: Sets the “Top End Chiller (TEC)” to work in remote mode.
@@ -87,7 +87,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="even">
-      <td>4</td>
+      <td><p>4</p></td>
       <td>
         <p>
           Softkey “MANUAL”: Sets the “Top End Chiller (TEC)” to work in manual mode.
@@ -98,7 +98,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="odd">
-      <td>5</td>
+      <td><p>5</p></td>
       <td>
         <p>
           The following softkeys can only be used when the system is in manual
@@ -111,7 +111,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="even">
-      <td>6</td>
+      <td><p>6</p></td>
       <td>
         <p>
           The following softkeys can only be used when the system is in manual
@@ -122,7 +122,7 @@ This screen displays the status and allows the control of the Top End Chiller sy
       </td>
     </tr>
     <tr class="odd">
-      <td>7</td>
+      <td><p>7</p></td>
       <td>
         <p>
           The following softkeys can only be used when the system is in manual

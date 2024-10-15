@@ -6,18 +6,18 @@ This screen shows the status of the capacitor bank cabinets.
 
 *Figure 2‑43. Capacitor banks screen*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the statuses of the capacitor bank cabinets. They are greyed out until they are activated. Once
 activated they turn red:</p>
 <ul>

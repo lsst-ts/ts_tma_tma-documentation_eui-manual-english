@@ -6,18 +6,18 @@ This screen displays the general aspects of the "Oil Supply System (OSS)" and en
 
 *Figure 2‑30. OSS general view screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status of the “Oil Supply System (OSS)” and lights up the upper box in the corresponding colour.</p>
 <p>Lights up the LEDs with the colour corresponding to the status of each element. They activate in the following order:
 “cooling”, “oil circulation”, “accumulators”, “pump” and “observation”. They can be one of four colours:</p>
@@ -38,7 +38,7 @@ corresponding colour as they are activated:</p>
 </ul></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>The following softkeys can only be used when the system is in automatic and
 remote mode.</p>
 <p>Softkey “ON”: Only switches on the “Oil Supply System (OSS)” if it is in “Idle”, in “REMOTE+AUTO” and if there is
@@ -50,14 +50,14 @@ interlock if one exists.</p>
 switch off.</p></td>
 </tr>
 <tr class="odd">
-<td>3</td>
+<td><p>3</p></td>
 <td><p>Softkey “AUTO”: Operates the “Oil Supply System (OSS)” in automatic mode. All subsystems are turned on
 automatically.</p>
 <p>Softkey “MANUAL”: Operates the “Oil Supply System (OSS)” in manual mode. Turns on the subsystems
 1 by 1.</p></td>
 </tr>
 <tr class="even">
-<td>4</td>
+<td><p>4</p></td>
 <td><p>The following softkeys can only be used when the system is in manual and remote mode.</p>
 <p>Softkey “ON”: Switches cooling on.</p>
 <p>Softkey “OFF”: Switches cooling off.</p>
@@ -65,7 +65,7 @@ automatically.</p>
 switch off.</p></td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td><p>5</p></td>
 <td><p>The following softkeys can only be used when the system is in manual and remote mode.
 The cooling must also be on.</p>
 <p>Softkey “ON”: Turns on oil circulation.</p>
@@ -74,7 +74,7 @@ The cooling must also be on.</p>
 switch off.</p></td>
 </tr>
 <tr class="even">
-<td>6</td>
+<td><p>6</p></td>
 <td><p>The following softkeys can only be used when the system is in manual and remote mode.
 In addition, both cooling and oil circulation must be switched on.</p>
 <p>Softkey “ON”: Turns on the main pumps that pump the oil to the telescope.</p>

@@ -6,18 +6,18 @@ This screen displays the statuses of elements of the encoder system for the main
 
 *Figure 2‑44. Encoder system screen.*
 
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
-<th>ITEM</th>
-<th>DESCRIPTION</th>
+<th><p>ITEM</p></th>
+<th><p>DESCRIPTION</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
+<td><p>1</p></td>
 <td><p>Displays the status of the encoder and each of the azimuth and elevation heads.</p>
 <p>For each head it displays: The relative position (in deg), the absolute position (in deg), the position of the telescope (in
 deg) and the reference value (in encoder system accounts, this is a value for advanced users who are familiar with the
@@ -28,7 +28,7 @@ the system will go into "Fault" status.</p>
 <p>It returns to grey automatically after the search is finished or when the “REFERENCE STOP” softkey is pressed.</p></td>
 </tr>
 <tr class="even">
-<td>2</td>
+<td><p>2</p></td>
 <td><p>Softkey “AZIMUTH”: Selects the azimuth heads.</p>
 <p>Softkey “ELEVATION”: Selects the elevation heads.</p>
 <p>Softkey “ON”: Only turns on the encoder system if no interlock is active.</p>
@@ -39,7 +39,7 @@ interlock if one exists.</p>
 <p>Softkey “REFERENCE STOP”: Stops the reference search.</p>
 <p>Softkey “CLEAR HEADS ERROR”: Clears errors in the heads.</p>
 <p>Softkey “REBOOT ENCODER HARDWARE”: Reboots the encoder hardware (EIB).</p>
-<table>
+<table class="table">
 <colgroup>
 <col style="width: 10<col style="width: 89</colgroup>
 <tbody>
