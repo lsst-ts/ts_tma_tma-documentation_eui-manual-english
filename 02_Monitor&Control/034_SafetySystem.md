@@ -15,8 +15,6 @@ This screen shows the safety system in table format. The rows being the causes, 
 *Figure 2‑68. Safety system screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

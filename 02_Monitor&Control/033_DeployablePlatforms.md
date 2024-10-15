@@ -9,8 +9,6 @@ This screen displays the deployable platforms and enables their control.
 *Figure 2‑65. Deployable platforms screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -49,9 +47,9 @@ interlock if one exists.</p>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td>Softkeys “+” or “-”: Makes a movement at a constant speed in a positive or negative direction
+<td><p>Softkeys “+” or “-”: Makes a movement at a constant speed in a positive or negative direction
 respectively. This sets the percentage of the default speed defined in the settings with the
-vertical slider.</td>
+vertical slider.</p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
@@ -59,13 +57,11 @@ vertical slider.</td>
 M1M side extensions can only be extended if the “Mirror Cover” is retracted.</p>
 <p>Softkeys “LOCK M2” and “LOCK M1M3”: Lock the extensions of the corresponding platforms.</p>
 <table class="table">
-<colgroup>
-<col style="width: 10<col style="width: 89</colgroup>
 <tbody>
 <tr class="odd">
 <td>ℹ️</td>
-<td>These must be inserted to lock the platform extensions. Inserting the extensions
-(as well as extracting them) is an action that has to be carried out manually from the platform itself.</td>
+<td><p>These must be inserted to lock the platform extensions. Inserting the extensions
+(as well as extracting them) is an action that has to be carried out manually from the platform itself.</p></td>
 </tr>
 </tbody>
 </table></td>
@@ -103,8 +99,6 @@ This screen shows a graph of the movement of the deployable platforms in real ti
 *Figure 2‑66. Deployable platforms screen - current view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -130,8 +124,6 @@ This screen displays and loads the last five movements of the deployable platfor
 *Figure 2‑67. Deployable platforms screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -9,8 +9,6 @@ This screen shows the statuses and values of the azimuth motors and enables thei
 *Figure 2‑28. Azimuth drives - status screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -49,8 +47,6 @@ This screen shows a graph with the real time azimuth drive current values.
 *Figure 2‑29. Azimuth drives screen - values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -7,8 +7,6 @@ This screen displays the list of "TMA RT MAIN” settings and enables their cont
 *Figure 2‑101. TMA RT MAIN settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays the list of "TMA RT MAIN” settings and enables their cont
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the list of “TMA RT MAIN” settings.</td>
+<td><p>Displays the list of “TMA RT MAIN” settings.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

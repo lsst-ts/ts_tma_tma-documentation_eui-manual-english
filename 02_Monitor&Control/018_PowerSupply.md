@@ -7,8 +7,6 @@ This screen displays and allows control of the power supply, which charges the c
 *Figure 2‑42. Power supply display.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

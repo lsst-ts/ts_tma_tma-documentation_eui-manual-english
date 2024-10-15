@@ -7,8 +7,6 @@ This screen displays the list of "Mirror Cover" settings and enables their contr
 *Figure 2‑90. Mirror cover settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays the list of "Mirror Cover" settings and enables their contr
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the list of “Mirror Cover” settings.</td>
+<td><p>Displays the list of “Mirror Cover” settings.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

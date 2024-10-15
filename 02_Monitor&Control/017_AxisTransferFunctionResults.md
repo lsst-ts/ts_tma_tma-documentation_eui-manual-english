@@ -11,8 +11,6 @@ In this case, it shows the characteristics of the test and data pickup against t
 *Figure 2‑39. Axis transfer function screen - time signals.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -46,8 +44,6 @@ This screen displays a FFT graph of the previously selected signals. The result 
 *Figure 2‑40. Axis transfer function screen - FFT.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -75,8 +71,6 @@ This screen displays a graph of the transfer function of the pre-selected signal
 *Figure 2‑41. Axis transfer function screen - transfer function.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -7,8 +7,6 @@ This screen displays and controls the "Oil Supply System (OSS)" settings list.
 *Figure 2‑95. OSS system settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays and controls the "Oil Supply System (OSS)" settings list.
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the list of “Oil Supply System (OSS)” settings.</td>
+<td><p>Displays the list of “Oil Supply System (OSS)” settings.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

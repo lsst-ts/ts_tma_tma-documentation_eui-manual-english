@@ -11,10 +11,6 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 *Figure 2‑12. Main axis general view screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -24,7 +20,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td><p>Accesses the screen <a href="./002_ElevationGeneralView.md">Elevation General View</a></p>
+<td><p>Accesses the screen <a href="./002_ElevationGeneralView.html">Elevation General View</a></p>
 <p>Displays the “Elevation” status, position (in deg) and the setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -36,7 +32,7 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>Accesses the screen <a href="./005_AzimuthGeneralView.md">Azimuth General View</a></p>
+<td><p>Accesses the screen <a href="./005_AzimuthGeneralView.html">Azimuth General View</a></p>
 <p>Displays the “Azimuth” status, position (in deg) and setpoint (in deg).</p>
 <p>Displays the status of each motor by coloured boxes:</p>
 <ul>
@@ -82,7 +78,7 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="even">
 <td><p>8</p></td>
-<td><p>Accesses the screen <a href="./004_LockingPins.md">Locking Pins General View</a></p>
+<td><p>Accesses the screen <a href="./004_LockingPins.html">Locking Pins General View</a></p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -92,15 +88,15 @@ deg/s<sup>2</sup>) and jerk (in deg/s<sup>3</sup>) specifications for elevation 
 </tr>
 <tr class="odd">
 <td><p>9</p></td>
-<td>Displays the status and accesses the screen <a href="./008_OSSGeneralView.md">OSS General View</a></td>
+<td><p>Displays the status and accesses the screen <a href="./008_OSSGeneralView.html">OSS General View</a></p></td>
 </tr>
 <tr class="even">
 <td><p>10</p></td>
-<td>Displays the status and accesses the screen <a href="./018_PowerSupply.md">Power Supply General View</a></td>
+<td><p>Displays the status and accesses the screen <a href="./018_PowerSupply.html">Power Supply General View</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>11</p></td>
-<td><p>Accesses the screen <a href="./006_AzimuthCableWrap.md">Azimuth Cable Wrap</a></p>
+<td><p>Accesses the screen <a href="./006_AzimuthCableWrap.html">Azimuth Cable Wrap</a></p>
 <p>Displays the status and position (in deg) of the “Azimuth Cable Wrap (ACW)”.</p></td>
 </tr>
 <tr class="even">
@@ -121,10 +117,6 @@ This screen allows the azimuth and elevation axes to be commanded at the same ti
 *Figure 2‑13. Main axis general view screen - current move XY.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -150,10 +142,6 @@ This screen displays and loads the last five azimuth and elevation movements, wi
 *Figure 2‑14. Main axis general view screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -178,10 +166,6 @@ This screen is displayed as a “Popup” by clicking on the "LOAD" button on th
 *Figure 2‑15. Tracking screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -191,15 +175,15 @@ This screen is displayed as a “Popup” by clicking on the "LOAD" button on th
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Selects the directory of the paths to be loaded.</td>
+<td><p>Selects the directory of the paths to be loaded.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td>Displays and allows the selection of the filename to be plotted in item 3 of this table.</td>
+<td><p>Displays and allows the selection of the filename to be plotted in item 3 of this table.</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td>Displays the graph of the selected file.</td>
+<td><p>Displays the graph of the selected file.</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>

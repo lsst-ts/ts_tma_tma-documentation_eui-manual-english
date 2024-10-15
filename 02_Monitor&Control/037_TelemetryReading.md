@@ -10,8 +10,6 @@ older data.
 *Figure 2‑71. Telemetry reading screen*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -21,7 +19,7 @@ older data.
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>A graph is displayed showing the loaded telemetry data history.</td>
+<td><p>A graph is displayed showing the loaded telemetry data history.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

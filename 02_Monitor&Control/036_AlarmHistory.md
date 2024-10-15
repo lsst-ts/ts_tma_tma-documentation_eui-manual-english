@@ -7,8 +7,6 @@ This screen displays the system alarm history and enables its control.
 *Figure 2‑70. Alarm history screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

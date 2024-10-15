@@ -7,8 +7,6 @@ This screen displays the general aspects of the "Oil Supply System (OSS)" and en
 *Figure 2‑30. OSS general view screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -99,4 +97,3 @@ The table below shows the main icons present in the following screens, belonging
 | ![](../Resources/media/image44.png)| Pressure gauge|
 | ![](../Resources/media/image45.png)| Heater|
 | ![](../Resources/media/image46.png)| Bearing|
-

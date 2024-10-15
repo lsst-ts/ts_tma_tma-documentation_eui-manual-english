@@ -9,8 +9,6 @@ This screen displays the statuses and movements of the "Mirror Cover Locks” an
 *Figure 2‑48. Mirror cover locks screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -68,8 +66,6 @@ This screen shows a graph of the movement of the “Mirror Cover Locks” in rea
 *Figure 2‑49. Mirror cover locks screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -95,8 +91,6 @@ This screen displays and loads the last five movements of the “Mirror Cover Lo
 *Figure 2‑50. Mirror cover locks screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

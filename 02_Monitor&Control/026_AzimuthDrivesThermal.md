@@ -9,8 +9,6 @@ This screen shows the temperatures of the azimuth drives and enables their contr
 *Figure 2‑58. Azimuth drives thermal screen - current values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -57,8 +55,6 @@ This screen displays a graph showing the history of azimuth drive temperatures o
 *Figure 2‑59. Azimuth drives thermal screen - historic values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

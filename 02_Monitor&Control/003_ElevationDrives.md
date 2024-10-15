@@ -9,10 +9,6 @@ This screen displays the statuses and values of the elevation motors and enables
 *Figure 2‑18. Elevation drives screen - status.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -41,6 +37,7 @@ it will switch to the status “Parked”.</p>
 </tr>
 </tbody>
 </table>
+
 ##### Elevation Drives Screen - Values
 
 This screen shows a graph with the real time current values of the elevation motors.
@@ -50,10 +47,6 @@ This screen shows a graph with the real time current values of the elevation mot
 *Figure 2‑19. Elevation drives screen - values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

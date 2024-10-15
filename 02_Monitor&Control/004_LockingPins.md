@@ -9,10 +9,6 @@ This screen displays the elevation axis locking pins and enables their control.
 *Figure 2‑20. Locking pins screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -28,14 +24,10 @@ This screen displays the elevation axis locking pins and enables their control.
 <li><p>“Test”, in orange. Fine balancing of the elevation shaft is performed in this position.</p></li>
 </ul>
 <table class="table">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 89%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td>⚠️</td>
-<td>This position (test) poses a risk to the telescope, as the permitted movements are less than 0.2 deg.</td>
+<td><p>This position (test) poses a risk to the telescope, as the permitted movements are less than 0.2 deg.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,12 +59,12 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td>Displays the status and allows access to the screen [“Balancing General View”](./024_BalancingGeneralView.md)</td>
+<td><p>Displays the status and allows access to the screen [“Balancing General View”](./024_BalancingGeneralView.md)</p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
+<p>Accesses the screen <a href="./002_ElevationGeneralView.html">Elevation General View</a></p></td>
 </tr>
 <tr class="even">
 <td><p>6</p></td>
@@ -82,6 +74,7 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Locking Pins Screen -- Current Move
 
 This screen shows a graph of the movement of the locking pins in real time.
@@ -91,10 +84,6 @@ This screen shows a graph of the movement of the locking pins in real time.
 *Figure 2‑21. Locking pins screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -110,6 +99,7 @@ This screen shows a graph of the movement of the locking pins in real time.
 </tr>
 </tbody>
 </table>
+
 ##### Locking Pins Screen -- Move History
 
 This screen displays and loads the last five movements of the locking pins, with number 1 being the last.
@@ -119,10 +109,6 @@ This screen displays and loads the last five movements of the locking pins, with
 *Figure 2‑22. Locking pins screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

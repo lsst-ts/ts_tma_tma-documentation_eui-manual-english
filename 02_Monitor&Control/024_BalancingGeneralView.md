@@ -9,8 +9,6 @@ This screen displays the statuses and movements of the motors that move the mass
 *Figure 2‑54. Balancing general view screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -61,11 +59,11 @@ vertical slider.</p>
 </tr>
 <tr class="even">
 <td><p>6</p></td>
-<td>Displays the values saved in [“Settings”](../03_Settings/012_BalancingSettings.md).</td>
+<td><p>Displays the values saved in <a href="../03_Settings/012_BalancingSettings.html">Settings</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>7</p></td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
+<td><p>Accesses the screen <a href="./004_LockingPins.html">Locking Pins General View</a></p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -76,7 +74,7 @@ vertical slider.</p>
 <tr class="even">
 <td><p>8</p></td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
+<p>Accesses the screen <a href="./002_ElevationGeneralView.html">Elevation General View</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>9</p></td>
@@ -96,8 +94,6 @@ This screen shows a graph of the movement of the four masses used to balance the
 *Figure 2‑55. Balancing general view screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -124,8 +120,6 @@ This screen displays and loads the last five movements of the masses used to bal
 *Figure 2‑56. Balancing general view screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

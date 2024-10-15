@@ -7,8 +7,6 @@ This screen shows the status of the capacitor bank cabinets.
 *Figure 2‑43. Capacitor banks screen*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -7,8 +7,6 @@ This screen shows the setting history. It also allows the desired settings to be
 *Figure 2‑98. Setting history screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen shows the setting history. It also allows the desired settings to be
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the settings that were present at a given time.</td>
+<td><p>Displays the settings that were present at a given time.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

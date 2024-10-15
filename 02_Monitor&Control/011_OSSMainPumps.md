@@ -7,8 +7,6 @@ This screen shows the values of the main valves of the "Oil Supply System (OSS)"
 *Figure 2‑33. OSS main pumps screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

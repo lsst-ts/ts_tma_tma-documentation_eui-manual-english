@@ -9,8 +9,6 @@ This screen displays the status and movement of the "Azimuth Cable Wrap (ACW)”
 *Figure 2‑25. Azimuth cable wrap screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -52,6 +50,7 @@ vertical slider.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Azimuth Cable Wrap Screen -- Current Move
 
 This screen displays a graph of the “Azimuth Cable Wrap (ACW)” movement in real time.
@@ -61,8 +60,6 @@ This screen displays a graph of the “Azimuth Cable Wrap (ACW)” movement in r
 *Figure 2‑26. Azimuth cable wrap screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -78,6 +75,7 @@ This screen displays a graph of the “Azimuth Cable Wrap (ACW)” movement in r
 </tr>
 </tbody>
 </table>
+
 ##### Azimuth Cable Wrap Screen -- Move History
 
 This screen displays and loads the last five "Azimuth Cable Wrap (ACW)” movements, with number 1 being the last one.
@@ -87,8 +85,6 @@ This screen displays and loads the last five "Azimuth Cable Wrap (ACW)” moveme
 *Figure 2‑27. Azimuth cable wrap screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -9,10 +9,6 @@ This screen displays the general elevation aspects and enables their control.
 *Figure 2‑16. Elevation general view screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -59,8 +55,8 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
-<p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
+<td><p>Accesses the screen <a href="./004_LockingPins.html">Locking Pins General View</a></p>
+<p>Displays the status of the locking pins and turns on the LED with the corresponding color:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
 <li><p>“TEST”: Means that the pins are being tested, and lights up orange.</p></li>
@@ -69,11 +65,11 @@ vertical slider.</p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
+<td><p>Displays the status and accesses the screen <a href="./008_OSSGeneralView.html">OSS General View</a></p></td>
 </tr>
 <tr class="even">
 <td><p>6</p></td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
+<td><p>Displays the status and accesses the screen <a href="./018_PowerSupply.html">“Power SupplyGeneral View”</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>7</p></td>
@@ -83,6 +79,7 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
 ##### Elevation General View Screen -- Move History
 
 This screen displays and loads the last five elevation movements, with number 1 being the last.
@@ -92,10 +89,6 @@ This screen displays and loads the last five elevation movements, with number 1 
 *Figure 2‑17. Elevation general view screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

@@ -7,8 +7,6 @@ This screen shows the oil circulation values of the "Oil Supply System (OSS)". I
 *Figure 2‑32. OSS oil circulation screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

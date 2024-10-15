@@ -7,8 +7,6 @@ This screen shows a list of data from any subsystem (topic) in real time. It is 
 *Figure 2‑72. All data view screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

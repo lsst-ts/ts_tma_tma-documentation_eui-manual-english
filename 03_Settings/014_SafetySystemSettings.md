@@ -7,8 +7,6 @@ This screen displays the list of safety system settings and allows their control
 *Figure 2‑94. Safety system settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays the list of safety system settings and allows their control
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the safety system settings list.</td>
+<td><p>Displays the safety system settings list.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

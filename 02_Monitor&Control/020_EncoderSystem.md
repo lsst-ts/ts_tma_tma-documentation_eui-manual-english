@@ -7,8 +7,6 @@ This screen displays the statuses of elements of the encoder system for the main
 *Figure 2‑44. Encoder system screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -38,14 +36,12 @@ interlock if one exists.</p>
 <p>Softkey “REFERENCE START”: Starts the reference search.</p>
 <p>Softkey “REFERENCE STOP”: Stops the reference search.</p>
 <p>Softkey “CLEAR HEADS ERROR”: Clears errors in the heads.</p>
-<p>Softkey “REBOOT ENCODER HARDWARE”: Reboots the encoder hardware (EIB).</p>
 <table class="table">
-<colgroup>
-<col style="width: 10<col style="width: 89</colgroup>
 <tbody>
 <tr class="odd">
 <td>🛑</td>
-<td><b>Only trained personnel should perform this operation.</b></td>
+<td><p><b>Only trained personnel should perform this operation.</b></p></td>
+<td><p>Softkey “REBOOT ENCODER HARDWARE”: Reboots the encoder hardware (EIB).</p></td>
 </tr>
 </tbody>
 </table></td>

@@ -7,8 +7,6 @@ This screen shows the values of the “Oil Supply System (OSS)” oil cooling sy
 *Figure 2‑31. OSS oil cooling screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

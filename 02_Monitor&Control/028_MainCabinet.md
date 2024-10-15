@@ -7,8 +7,6 @@ This screen displays the temperature of the main cabinet of the MCS, TMA-AZ-CS-C
 *Figure 2‑62. Main cabinet screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

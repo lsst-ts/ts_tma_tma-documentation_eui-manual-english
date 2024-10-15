@@ -13,8 +13,6 @@ This screen displays the statuses and movements of the "Camera Cable Wrap” mot
 *Figure 2‑51. Camera cable wrap screen - main view.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -48,7 +46,7 @@ interlock if one exists.</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td>Commands a path set by a file, [see](./001_MainAxisGeneralView.md/#pantalla-tracking)</td>
+<td><p>Commands a path set by a file, <a href="./001_MainAxisGeneralView.html#tracking-screen">see</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
@@ -71,8 +69,6 @@ This screen shows a graph of the real time "Camera Cable Wrap" movement.
 *Figure 2‑52. Camera cable wrap screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -98,8 +94,6 @@ This screen displays and loads the last five "Camera Cable Wrap” movements, wi
 *Figure 2‑53. Camera cable wrap screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

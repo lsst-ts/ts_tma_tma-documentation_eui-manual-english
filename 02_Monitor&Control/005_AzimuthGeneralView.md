@@ -9,8 +9,6 @@ This screen displays the general aspects of the azimuth axis and enables their c
 *Figure 2‑23. Azimuth general view screen - current move.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -56,15 +54,15 @@ vertical slider.</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
-<td>Displays the status and accesses the screen [“OSS General View”](./008_OSSGeneralView.md)</td>
+<td><p>Displays the status and accesses the screen <a href="./008_OSSGeneralView.html">OSS General View</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
-<td>Displays the status and accesses the screen [“Power SupplyGeneral View”](./018_PowerSupply.md)</td>
+<td><p>Displays the status and accesses the screen <a href="./018_PowerSupply.html">Power SupplyGeneral View</a></p></td>
 </tr>
 <tr class="even">
 <td><p>6</p></td>
-<td><p>Accesses the screen [“Azimuth Cable Wrap”](./006_AzimuthCableWrap.md) 2.5.2.3.2.</p>
+<td><p>Accesses the screen <a href="./006_AzimuthCableWrap.html">Azimuth Cable Wrap</a></p>
 <p>Displays the status and position (in deg) of the “Azimuth Cable Wrap (ACW)”.</p></td>
 </tr>
 <tr class="odd">
@@ -85,8 +83,6 @@ This screen displays and allows the loading of the last five azimuth movements, 
 *Figure 2‑24. Azimuth general view screen - move history.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

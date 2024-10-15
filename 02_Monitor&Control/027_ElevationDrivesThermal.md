@@ -9,8 +9,6 @@ This screen shows the temperatures of the elevation drives and enables their con
 *Figure 2‑60. Elevation drives thermal screen - current values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -57,8 +55,6 @@ This screen displays a graph showing the history of elevation drive temperatures
 *Figure 2‑61. Elevation drives thermal screen - historic values.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

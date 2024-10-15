@@ -7,8 +7,6 @@ This screen displays all systems and allows general commands to be sent to all s
 *Figure 2‑81. General commands screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

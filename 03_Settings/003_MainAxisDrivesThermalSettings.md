@@ -7,8 +7,6 @@ This screen displays the list of the thermal settings of the main axis drives an
 *Figure 2‑84. Main axis drives thermal settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays the list of the thermal settings of the main axis drives an
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the list of thermal settings of the main axis drives.</td>
+<td><p>Displays the list of thermal settings of the main axis drives.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

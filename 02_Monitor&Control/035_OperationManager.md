@@ -7,8 +7,6 @@ This screen shows a history of all commands sent by the CSC. It is a monitoring 
 *Figure 2‑69. Operation manager screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>

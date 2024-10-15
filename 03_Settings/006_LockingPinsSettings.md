@@ -7,8 +7,6 @@ This screen displays the settings list of the elevation axis locking pins, and e
 *Figure 2‑87. Locking pins settings screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
@@ -18,7 +16,7 @@ This screen displays the settings list of the elevation axis locking pins, and e
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td>Displays the settings list of the elevation axis locking pins.</td>
+<td><p>Displays the settings list of the elevation axis locking pins.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>

@@ -4,15 +4,13 @@ This screen allows the selected axis, Azimuth or Elevation, to be excited, in or
 
 | WARNING| WARNING|
 |----------|----------|
-| ![](../Resources/media/image005.png){wight=1%}| **ONLY TO BE USED BY PERSONNEL QUALIFIED FOR THIS TEST.**|
+| ![](../Resources/media/image005.png)| **ONLY TO BE USED BY PERSONNEL QUALIFIED FOR THIS TEST.**|
 
 ![](../Resources/media/image54.png)
 
 *Figure 2‑38. Axis transfer function screen.*
 
 <table class="table">
-<colgroup>
-<col style="width: 13<col style="width: 86</colgroup>
 <thead>
 <tr class="header">
 <th><p>ITEM</p></th>
