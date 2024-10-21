@@ -4,7 +4,7 @@
 
 This screen displays the deployable platforms and enables their control.
 
-![](../Resources/media/image81.png)
+![General View](../Resources/media/image81.png)
 
 *Figure 2‑65. Deployable platforms screen - main view.*
 
@@ -90,11 +90,42 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tbody>
 </table>
 
+###### Deployable Platform Deploy/Retract sequence
+
+Each platform has two sections, which extend individually:
+
+- platform section 1: this is the lower section of the platform, which carries the section 2 when extending/retracting
+- platform section 2: this is the upper section of the platform.
+
+- Deploy sequence
+  - Extend platform section 1
+  - Extend platform section 2
+- Retract sequence
+  - Retract platform section 2
+  - Retract platform section 1
+
+###### Deployable Platform extensions management
+
+> The extensions can be managed **ONLY** when the platforms are completely deployed
+
+Once the platforms are extended, these must be powered off, `Idle` state, then the extensions can be managed.
+
+- Extending the extensions
+  - Select the platform to work with from item 2 (Both, X- or X+)
+  - Unlock the desired extension using the unlock button in the EUI for the corresponding extension -> the locked LED will go grey
+  - Manually unlock the extension with the pin -> the inserted LED will go grey as pin is removed
+  - Manually pull the extension out
+- Retracting the extensions
+  - Manually push the extension in
+  - Manually lock the extension with the pin -> the inserted LED will go green when the pin is inserted
+  - Select the platform to work with from item 2 (Both, X- or X+)
+  - Lock the desired extension using the lock button in the EUI for the corresponding extension -> the locked LED will go green
+
 ##### Deployable Platforms Screen -- Current Move
 
 This screen shows a graph of the movement of the deployable platforms in real time.
 
-![](../Resources/media/image82.png)
+![Deployable platform current move](../Resources/media/image82.png)
 
 *Figure 2‑66. Deployable platforms screen - current view.*
 
@@ -119,7 +150,7 @@ This screen shows a graph of the movement of the deployable platforms in real ti
 
 This screen displays and loads the last five movements of the deployable platforms, with number 1 being the last.
 
-![](../Resources/media/image83.png)
+![Move history](../Resources/media/image83.png)
 
 *Figure 2‑67. Deployable platforms screen - move history.*
 
