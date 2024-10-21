@@ -20,8 +20,8 @@ This screen displays the elevation axis locking pins and enables their control.
 <td><p>1</p></td>
 <td><p>Displays the status of the locking pins:</p>
 <ul>
-<li><p>“Free”, in green. Movement of the elevation shaft is permitted in this position.</p></li>
-<li><p>“Test”, in orange. Fine balancing of the elevation shaft is performed in this position.</p></li>
+<li><p>“Free”, in green. Movement of the elevation is permitted in this position.</p></li>
+<li><p>“Test”, in orange. Fine balancing of the elevation is performed in this position.</p></li>
 </ul>
 <table class="table">
 <tbody>
@@ -35,7 +35,7 @@ This screen displays the elevation axis locking pins and enables their control.
 <li><p>“Lock”, in red, does not allow the elevation movement.</p></li>
 </ul>
 <p>Displays the status and position (in mm) of the locking pins. In addition, the box next to “run/alarm”
-lights up in the colour corresponding to the status of the pin.</p></td>
+lights up in the color corresponding to the status of the pin.</p></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
@@ -74,6 +74,24 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
+
+###### Locking Pins move sequence
+
+The locking pins have 3 positions:
+
+- **Free**: the locking pins are completely retracted, allowing a complete and free movement of the Elevation axis.
+- **Lock**: the locking pins are completely inserted, restricting the Elevation axis movement. This restriction is both
+  mechanical and electrical, as the signal from the limit switch is wired to the TMA IS disabling the Elevation axis.
+- **Test**: the locking pins are at an intermediate position, at this position the elevation axis has a few degrees
+  of free motion before hitting the locking pins. This position in meant just for balancing purposes, to limit the
+  motion range allowed for elevation during the process.
+
+As there are just 3 possible positions for the locking pins, for motion there are just 3 buttons named accordingly, to
+move the pins to the corresponding positions. The position in mm for each pin is stored as a setting and can be adjusted
+by an maintenance user in the EUI settings.
+
+Additionally, maintenance users may see the jog buttons for adjusting these positions, other users will just see the
+*FREE*, *TEST* and *LOCK* buttons for moving the pins.
 
 ##### Locking Pins Screen -- Current Move
 
