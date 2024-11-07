@@ -82,15 +82,27 @@ The locking pins have 3 positions:
 - **Free**: the locking pins are completely retracted, allowing a complete and free movement of the Elevation axis.
 - **Lock**: the locking pins are completely inserted, restricting the Elevation axis movement. This restriction is both
   mechanical and electrical, as the signal from the limit switch is wired to the TMA IS disabling the Elevation axis.
+  The active "Locking Pin Safety" interlock will appear in the "INTERLOCKS" box, accompanied by the red box. 
 - **Test**: the locking pins are at an intermediate position, at this position the elevation axis has a few degrees
   of free motion before hitting the locking pins. This position in meant just for balancing purposes, to limit the
   motion range allowed for elevation during the process.
 
 As there are just 3 possible positions for the locking pins, for motion there are just 3 buttons named accordingly, to
-move the pins to the corresponding positions. The position in mm for each pin is stored as a setting and can be adjusted
-by an maintenance user in the EUI settings.
+move the pins to the corresponding positions. 
 
-Additionally, maintenance users may see the jog buttons for adjusting these positions, other users will just see the
+The sequence to move the locking pins from one position to another is:
+
+1. Turn *ON* power to the locking pins. The "pin status" will change from "Idle" to "Enable".
+  If an interlock is present, press *RESET ALARM*, then *ON*. 
+1. Choose *BOTH* to move both locking pins, or *+X*, *-X*, if you are only moving the locking pin in the +X or -X bracket, 
+  respectively. 
+1.  Push *FREE, TEST* or *LOCK* buttons to command to the new position. 
+1. The locking pins will take around a minute to get into the new commanded position. 
+   The display section will show the new position highlighted with the color code described above.  
+1. Turn the locking pins *OFF*. The "pin status" will return to "Idle". 
+
+The position in mm for each pin is stored as a setting and can be adjusted by a maintenance user in the EUI settings. 
+Additionally, maintenance users may see the jog buttons for adjusting these positions; other users will just see the 
 *FREE*, *TEST* and *LOCK* buttons for moving the pins.
 
 ##### Locking Pins Screen -- Current Move
