@@ -75,14 +75,12 @@ vertical slider.</p>
   </thead>
 </table>
 
-- Deploy sequence: this sequence is for extending all Mirror Covers (MCs), which requires the MCLs to be in the unlocked
-  position to permit motion. Sequence steps after pressing the Deploy button:
+- Deploy sequence: this sequence is for extending all Mirror Covers (MCs). Sequence steps after pressing the Deploy button:
   - All the MCLs are moved to the unlock position
   - When the MCLs reach the unlocked position, two MCs are moved (Y+ and Y-)
   - When the MCs reach the extended position, two MCs are moved (X+ and X-)
   - When the MCs reach the extended position, the command is ended successfully
-- Retract sequence: this sequence is for retracting all Mirror Covers (MCs), which requires the MCLs to be in the locked
-  position when completed. Sequence steps after pressing the Retract button:
+- Retract sequence: this sequence is for retracting all Mirror Covers (MCs). Sequence steps after pressing the Retract button:
   - Two MCs are moved (X+ and X-)
   - When the MCs reach the retracted position, two MCs are moved (Y+ and Y-)
   - When the MCs reach the retracted position, all the MCLs are moved to the lock position
@@ -93,6 +91,23 @@ again, repressing the button, should work and complete the sequence successfully
 
 > The limit switches indicating the Locked/Unlocked and Deployed/Retracted positions will be turned on when the
 > command is complete, but these are very delicate and sometimes are unpressed when elevation is moved.
+
+The sequence above refers just to the buttons actions, but before reaching there several conditions and steps must be
+executed:
+
+- The mirror cover locks must be powered on, go to
+  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor%26Control/022_MirrorCoverLocks.html)
+  and power all the mirror cover locks ON, there is no need to move them, the deploy/retract command will do that
+- The elevation axis must be above 15 deg, the actual status of the axis, on/off/fault is irrelevant
+- Select ALL the mirror covers
+- Power ON the mirror covers
+- The status of all the mirror covers will be *enable*
+- Press the DEPLOY/RETRACT button, depending on the desired outcome. The sequence explained above will be executed in each
+  case.
+- Power OFF the mirror covers
+- Power OFF the mirror cover locks, using the
+  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor%26Control/022_MirrorCoverLocks.html),
+  select ALL the mirror cover locks and press OFF
 
 ##### Mirror Cover General View Screen -- Current Move
 
