@@ -95,19 +95,19 @@ again, repressing the button, should work and complete the sequence successfully
 The sequence above refers just to the buttons actions, but before reaching there several conditions and steps must be
 executed:
 
-- The mirror cover locks must be powered on, go to
+1. The mirror cover locks must be powered on, go to
   [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor%26Control/022_MirrorCoverLocks.html)
-  and power all the mirror cover locks ON, there is no need to move them, the deploy/retract command will do that
-- The elevation axis must be above 15 deg, the actual status of the axis, on/off/fault is irrelevant
-- Select ALL the mirror covers
-- Power ON the mirror covers
-- The status of all the mirror covers will be *enable*
-- Press the DEPLOY/RETRACT button, depending on the desired outcome. The sequence explained above will be executed in each
+  and power all the mirror cover locks ON, there is no need to move them, the deploy/retract command will do that.
+1. The elevation axis must be above 15 deg, the actual status of the axis, on/off/fault is irrelevant.
+1. Select ALL the mirror covers.
+1. Power ON the mirror covers.
+1. The status of all the mirror covers will be *enable*.
+1. Press the DEPLOY/RETRACT button, depending on the desired outcome. The sequence explained above will be executed in each
   case.
-- Power OFF the mirror covers
-- Power OFF the mirror cover locks, using the
+1. Power OFF the mirror covers.
+1. Power OFF the mirror cover locks, using the
   [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor%26Control/022_MirrorCoverLocks.html),
-  select ALL the mirror cover locks and press OFF
+  select ALL the mirror cover locks and press OFF.
 
 ##### Mirror Cover General View Screen -- Current Move
 
