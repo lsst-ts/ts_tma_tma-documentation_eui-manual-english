@@ -61,6 +61,7 @@ The manual consists of the following sections:
   - [Dynalene Cooling Distribution System 2](./02_Monitor&Control/045_DynaleneCoolingDistributionSystem2.md)
   - [General Purpose GW Distribution System](./02_Monitor&Control/046_GeneralPurposeGWDist.Syst..md)
   - [General Commands](./02_Monitor&Control/047_GeneralCommands.md)
+  - [Ethercat Management](./02_Monitor&Control/048_EthercatManagement.md)
 - Settings
   - [Introduction](./03_Settings/000_Introduction.md)
   - [Azimuth Cable Wrap Settings](./03_Settings/001_AzimuthCableWrapSettings.md)
