@@ -33,8 +33,8 @@ This screen displays the status of the ethercat for the selected master and allo
               <li><p>Red, the system has a fault.</p></li>
             </ul>
             <li><p>host IP, the selected IP from item 2</p></li>
-            <li><p>scan engine state, the current state of the scan engine for the host</p></li>
-            <li><p>fault list, the list of faults from the host</p></li>
+            <li><p>scan engine state, the current state of the scan engine for the host, this must be active for the TMA to be operational</p></li>
+            <li><p>fault list, the list of faults from the host, this must be empty</p></li>
           </ul>
           <li><p>Bottom part:</p></li>
           <ul>
@@ -45,6 +45,7 @@ This screen displays the status of the ethercat for the selected master and allo
             <li><p>master MAC address, the MAC address of the selected master</p></li>
             <li><p>redundancy state, the state of the ethercat line redundancy, if disabled there is no ethercat master
               redundancy</p></li>
+            <li><p>slave list, here the list of slaves connected to the selected master are displayed</p></li>
             <li><p>ethercat management module version, the version of the ethercat management module running on the PXI</p></li>
           </ul>
         </ul>
@@ -84,3 +85,14 @@ This screen displays the status of the ethercat for the selected master and allo
 </table>
 
 > Items 3, 4 and 5 are only visible for maintenance level users
+
+##### Slave states
+
+| Slave State | Meaning                                                                                                                 |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Unknown     | Communication to the slave is not possible                                                                              |
+| Init        | The slave initialized, has communication with the master                                                                |
+| PreOP       | Ready for entering operational state                                                                                    |
+| BootStrap   | Boot strap state, this should not appear                                                                                |
+| SafeOP      | Safe operational state, prior to operational                                                                            |
+| OP          | Operational state, this is the state for the slaves to be sending/receiving data, this is the nominal state for the TMA |
