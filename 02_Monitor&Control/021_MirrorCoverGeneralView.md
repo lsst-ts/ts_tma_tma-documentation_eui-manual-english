@@ -60,6 +60,12 @@ vertical slider.</p>
 
 ###### Mirror Cover Deploy/Retract sequence
 
+<!-- This page was reviewed and edited by Paulo Lago
+Just a quick note on this section: based on my understanding, we no longer need to manage the MC locks manually. Once the MC drivers are powered on, they handle the locks automatically, so there's no need to power on the MCLs separately anymore.
+
+Also, I think we should add a clear sentence stating that the locks are applied whenever the MCs are retracted. Right now it’s only implicit, and making it explicit would prevent any confusion.
+-->
+
 <table class="table">
   <thead>
     <tr class="odd">
