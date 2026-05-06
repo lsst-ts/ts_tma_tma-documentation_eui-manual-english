@@ -1,3 +1,11 @@
+<!-- This page was reviewed and edited by Paulo Lago
+Below the descriptions of changes I suggest 
+
+Locking Pins Screen — Main View: It looks like there’s a broken link to “Balancing General View”(./024_BalancingGeneralView.md).
+The text is clear, and no further changes are required.
+Out of curiosity: is a single locking pin sufficient to prevent movement? If only one locking pin is engaged, how much freedom of movement does the TMA still have? -->
+
+
 #### Locking Pins Screen
 
 ##### Locking Pins Screen -- Main View
