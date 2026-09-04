@@ -62,6 +62,7 @@ The manual consists of the following sections:
   - [General Purpose GW Distribution System](./02_Monitor&Control/046_GeneralPurposeGWDist.Syst..md)
   - [General Commands](./02_Monitor&Control/047_GeneralCommands.md)
   - [Ethercat Management](./02_Monitor&Control/048_EthercatManagement.md)
+  - [Bosch System](./02_Monitor&Control/049_BoschSystem.md)
 - Settings
   - [Introduction](./03_Settings/000_Introduction.md)
   - [Azimuth Cable Wrap Settings](./03_Settings/001_AzimuthCableWrapSettings.md)
