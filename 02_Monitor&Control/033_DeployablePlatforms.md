@@ -53,22 +53,22 @@ vertical slider.</p></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
-<td><p>Softkeys “UNLOCK M2” and “UNLOCK M1M3”: Unlocks the extensions of the corresponding platforms.
-M1M side extensions can only be extended if the “Mirror Cover” is retracted.</p>
+<td><p>Softkeys “UNLOCK M2” and “UNLOCK M1M3”: Unlocks the extensions <strong>lateral locks</strong>strong> of the corresponding platforms. </br>
+  M1M3 side extensions can only be extended if the “Mirror Cover” is retracted.</p>
+  
 <p>Softkeys “LOCK M2” and “LOCK M1M3”: Lock the extensions of the corresponding platforms.</p>
 <table class="table">
 <tbody>
 <tr class="odd">
 <td>ℹ️</td>
-<td><p>These must be inserted to lock the platform extensions. Inserting the extensions
-(as well as extracting them) is an action that has to be carried out manually from the platform itself.</p></td>
+<td><p> Lateral locks (M2 and M1M3) are unlocked when the extensions are going to be extended. The extension itself is carried out and locked manually from the platform. Extensions are also retracted manually and lateral locks are locked once they are fully retracted.</p></td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
 <td><p>6</p></td>
-<td><p>Accesses the screen [“Locking Pins General View”](./004_LockingPins.md)</p>
+<td><p>Accesses the screen <a href="./004_LockingPins.md">Locking Pins General View</a> </p>
 <p>Displays the status of the locking pins and turns on the LED with the corresponding colour:</p>
 <ul>
 <li><p>“FREE”: Means that the locking pins are free and lights up in green.</p></li>
@@ -79,7 +79,7 @@ M1M side extensions can only be extended if the “Mirror Cover” is retracted.
 <tr class="odd">
 <td><p>7</p></td>
 <td><p>Displays the status and position (in deg) of “Elevation”.</p>
-<p>Accesses the screen [“Elevation General View”](./002_ElevationGeneralView.md)</p></td>
+<p>Accesses the screen <a href="./002_ElevationGeneralView.md">Elevation General View</a> </p></td>
 </tr>
 <tr class="even">
 <td><p>8</p></td>
@@ -89,37 +89,6 @@ box will be green and the blue softkey cannot be pressed.</p></td>
 </tr>
 </tbody>
 </table>
-
-###### Deployable Platform Deploy/Retract sequence
-
-Each platform has two sections, which extend individually:
-
-- platform section 1: this is the lower section of the platform, which carries the section 2 when extending/retracting
-- platform section 2: this is the upper section of the platform.
-
-- Deploy sequence
-  - Extend platform section 1
-  - Extend platform section 2
-- Retract sequence
-  - Retract platform section 2
-  - Retract platform section 1
-
-###### Deployable Platform extensions management
-
-> The extensions can be managed **ONLY** when the platforms are completely deployed
-
-Once the platforms are extended, these must be powered off, `Idle` state, then the extensions can be managed.
-
-- Extending the extensions
-  - Select the platform to work with from item 2 (Both, X- or X+)
-  - Unlock the desired extension using the unlock button in the EUI for the corresponding extension -> the locked LED will go grey
-  - Manually unlock the extension with the pin -> the inserted LED will go grey as pin is removed
-  - Manually pull the extension out
-- Retracting the extensions
-  - Manually push the extension in
-  - Manually lock the extension with the pin -> the inserted LED will go green when the pin is inserted
-  - Select the platform to work with from item 2 (Both, X- or X+)
-  - Lock the desired extension using the lock button in the EUI for the corresponding extension -> the locked LED will go green
 
 ##### Deployable Platforms Screen -- Current Move
 
@@ -169,3 +138,91 @@ This screen displays and loads the last five movements of the deployable platfor
 </tr>
 </tbody>
 </table>
+
+## Deploying the deployable platforms
+
+There are two platforms: X- and X+, each have two sections and two extensions.
+X+ grants access for camera work.
+
+**Each section** extends independently. See figure 2-2 in the [Deployable platform technical specification](https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-45404/092-308-I-M-00010-Ed001.pdf) document.
+
+- Platform section 1: the lower section, which supports section 2 during extension and retraction.
+
+- Platform section 2: the upper section of the platform.
+
+The **deploy sequence** is:
+
+- Extend platform section 1
+- Extend platform section 2
+
+The **retract sequence** is:
+
+- Retract platform section 2
+- Retract platform section 1
+
+### Precondition to deploy DP
+
+- TMA parked (drives off) and Elevation Locking pin inserted.
+
+### Procedure
+
+To deploy the Deployable Platforms (DP):
+
+1. Go to Home > Monitor and Control > [Deployable Platform](./033_DeployablePlatforms.md)
+2. Select `BOTH` or one of the platforms sections (`X-` or `X+`).
+3. <code>RESET ALARM</code> if needed
+4. Power `ON`
+5. Press `EXTEND`
+6. Power `OFF`, once they are fully deployed
+
+## Retracting the deployable platforms
+
+### Precondition to retract DP
+
+- TMA parked (drives off) and Elevation Locking pin inserted.
+- All extensions locking pins **inserted** and **locked**.
+
+### Procedure
+
+To retract the Deployable Platforms (DP):
+
+1. Go to Home > Monitor and Control > [Deployable Platform](./033_DeployablePlatforms.md)
+2. Select `BOTH` or one of the platforms sections (X- or X+).
+3. `RESET ALARM` if needed
+4. Power `ON`
+5. Press `RETRACT`
+6. Power `OFF`, once they are fully retracted.
+
+## Deployable Platform extensions management
+
+### Preconditions to manage the DP extensions
+
+- Platform completely deployed and powered OFF (idle state).
+- For the M1M3 DP extensions, the Mirror covers should be retracted (mirror exposed).
+
+### Procedure
+
+#### Extending the extensions
+
+1. From Home > Monitor and Control > [Deployable Platform](./033_DeployablePlatforms.md)
+    1. Select `BOTH` or one of the platforms sections (`X-` , `X+` ).
+    2. **Unlock** the extension you want to extend
+        1. Unlock M2 extensions: Press `UNLOCK M2`
+        2. Unlock M1M3 extensions: Press `UNLOCK M1M3`
+Once unlocked the corresponding **locked** LED will be gray
+
+2. From the deployable platforms on **level 8**:
+    1. **Manually remove the pin** on the extension to operate. You’ll see in the TMA EUI the **inserted** led will be gray
+    2. Manually extend the extensions.
+
+#### Retracting the extensions
+
+1. From the deployable platforms on **level 8**:
+     1. Manually retract the extensions
+     2. Manually insert the pin in the extension to operate. You’ll see in the TMA EUI the **inserted** led will be green.  
+2. From Home > Monitor and Control > [Deployable Platform](./033_DeployablePlatforms.md)
+    1. Select `BOTH` or one of the platforms sections (`X-` or `X+`).
+    2. Lock the extension you want
+         1. Lock M2 extensions: Press `LOCK M2`
+         2. Lock M1M3 extensions: Press `LOCK M1M3`
+         3. Once locked the corresponding LED will be green.
