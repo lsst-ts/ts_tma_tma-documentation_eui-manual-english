@@ -134,3 +134,47 @@ This screen displays and loads the last five movements of the masses used to bal
 </tr>
 </tbody>
 </table>
+
+##### Getting out of a Software Limit Switch Interlock
+
+When using the balancing system the software limit could be triggered.
+
+> Note that not all limit switches in the TMA go to the TMA interlock system (TMA IS), this is one of those which does not go to it.
+
+For these balancing-related limit switches, they are not managed by the PXI code.
+So, they are not disabled in the TMA IS, they just prevent the movement in the drive.
+What the balancing software has are the software limits that will prevent motion out of the allowed range.
+
+For example, the following screenshot shows the triggered software limit (negative position limit):
+
+![Balancing negative position limit](../Resources/media/balancing_negative_position_limit.png)
+
+How to clear it:
+
+1. Disable the negative software limit by going to the corresponding balancing settings window and selecting the correct instance:
+
+   ![Balancing disable limit 1](../Resources/media/balancing_disable_limit_1.png)
+
+2. Write to `FALSE` the corresponding limit positive/negative:
+
+   ![Balancing disable limit 2](../Resources/media/balancing_disable_limit_2.png)
+
+3. Go back to the balancing general view window and reset the interlock:
+
+   ![Balancing reset](../Resources/media/balancing_reset.png)
+
+4. After the reset and power on the system:
+
+   ![Balancing after reset and power on](../Resources/media/balancing_after_reset_and_power_on.png)
+
+5. Move into the range, the range can be checked in the settings of the corresponding instance (`Min Position` and `Max Position` settings):
+
+   ![Balancing move](../Resources/media/balancing_move.png)
+
+6. Power off the system:
+
+   ![Balancing power off](../Resources/media/balancing_power_off.png)
+
+7. Restore the settings for enabling the limit again:
+
+   ![Balancing restore setting](../Resources/media/balancing_restore_setting.png)
