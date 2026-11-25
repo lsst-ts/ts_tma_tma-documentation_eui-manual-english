@@ -99,7 +99,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td><p>9</p></td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor%26Control/036_AlarmHistory.html">“Alarm History”</a>
+          Accesses the screen <a href="../02_Monitor&Control/036_AlarmHistory.html">“Alarm History”</a>
         </p>
         <p>
           “GENERAL” softkey: accesses all alarms without filter.
