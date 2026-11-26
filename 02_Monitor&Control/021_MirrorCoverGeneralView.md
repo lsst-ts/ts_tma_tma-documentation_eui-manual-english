@@ -96,7 +96,7 @@ The sequence above refers just to the buttons actions, but before reaching there
 executed:
 
 1. The mirror cover locks must be powered on, go to
-  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor&Control/022_MirrorCoverLocks.html)
+  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_MonitorControl/022_MirrorCoverLocks.html)
   and power all the mirror cover locks ON, there is no need to move them, the deploy/retract command will do that.
 1. The elevation axis must be above 15 deg, the actual status of the axis, on/off/fault is irrelevant.
 1. Select ALL the mirror covers.
@@ -106,7 +106,7 @@ executed:
   case.
 1. Power OFF the mirror covers.
 1. Power OFF the mirror cover locks, using the
-  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_Monitor&Control/022_MirrorCoverLocks.html),
+  [mirror cover locks window](https://ts-tma.lsst.io/docs/tma_eui-manual-english/02_MonitorControl/022_MirrorCoverLocks.html),
   select ALL the mirror cover locks and press OFF.
 
 ##### Mirror Cover General View Screen -- Current Move

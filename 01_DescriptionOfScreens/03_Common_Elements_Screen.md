@@ -26,7 +26,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td><p>3</p></td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor&Control/035_OperationManager.html">“Operation Manager”</a>
+          Accesses the screen <a href="../02_MonitorControl/035_OperationManager.html">“Operation Manager”</a>
         </p>
         <p>
           Shows the statuses of the “Operation Manager”, <a href="./03_Common_Elements_Screen.html#statuses">see</a>
@@ -37,7 +37,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td><p>4</p></td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor&Control/034_SafetySystem.html">“Safety System”</a>
+          Accesses the screen <a href="../02_MonitorControl/034_SafetySystem.html">“Safety System”</a>
           Shows four safety system signals:
         </p>
         <ul>
@@ -99,7 +99,7 @@ The following figure shows the elements common to all the "Monitor \& Control" s
       <td><p>9</p></td>
       <td>
         <p>
-          Accesses the screen <a href="../02_Monitor&Control/036_AlarmHistory.html">“Alarm History”</a>
+          Accesses the screen <a href="../02_MonitorControl/036_AlarmHistory.html">“Alarm History”</a>
         </p>
         <p>
           “GENERAL” softkey: accesses all alarms without filter.
